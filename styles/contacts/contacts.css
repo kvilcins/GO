@@ -1,0 +1,20 @@
+.contacts__icons-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts__icons-wrap_margin {
+  margin: 0 0 38px 0;
+}
+
+.contacts__list {
+  list-style-type: none;
+  display: inline-block;
+  margin: 35px 0 0;
+}
+
+.contacts__item {
+  float: left;
+  margin: 0 26px 0 0;
+}

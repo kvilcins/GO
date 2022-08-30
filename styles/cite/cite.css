@@ -1,0 +1,12 @@
+.cite {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  float: right;
+  line-height: 28px;
+}
+
+.cite__img {
+  margin: 0 30px 0 0;
+}

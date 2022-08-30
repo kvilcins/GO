@@ -1,0 +1,10 @@
+.halls__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.halls__item:not(:last-child) {
+  margin: 0 0 60px 0;
+}
