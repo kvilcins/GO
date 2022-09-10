@@ -1,11 +1,5 @@
 .entertainment-card {
-  flex-basis: 380px;
-}
-
-.entertainment-card__picture-wrap {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
 }
 
 .entertainment-card__description {
@@ -17,4 +11,6 @@
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
+  margin: 0;
+  align-self: flex-end;
 }

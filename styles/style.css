@@ -1,8 +1,10 @@
 @import "header/header.css";
 @import "menu-list/menu-list.css";
 @import "main-wrap/main-wrap.css";
+@import "down-icon/down-icon.css";
 @import "menu-item/menu-item.css";
 @import "advantages/advantages.css";
+@import "advantages-text/advantages-text.css";
 @import "entertainment/entertainment.css";
 @import "entertainment-card/entertainment-card.css";
 @import "form/form.css";
@@ -27,10 +29,12 @@
 @import "feedbacks/feedbacks.css";
 @import "feedbacks-card/feedback-card.css";
 @import "faq/faq.css";
+@import "faq-list/faq-list.css";
 @import "contacts/contacts.css";
 @import "contacts-map/contacts-map.css";
 @import "contacts-info/contacts-info.css";
 @import "contacts-addresses/contacts-addresses.css";
 @import "icons-wrap/icons-wrap.css";
+@import "link-wrap/link-wrap.css";
 @import "footer/footer.css";
 @import "copyright/copyright.css";

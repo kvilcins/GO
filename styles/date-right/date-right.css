@@ -6,6 +6,10 @@
   gap: 14px 50px;
 }
 
+.date-right__input:focus {
+  outline: 2px solid #CD06FF;
+}
+
 .date-right__label {
   display: flex;
   flex-direction: column;

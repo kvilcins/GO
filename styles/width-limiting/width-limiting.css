@@ -13,6 +13,25 @@
   cursor: pointer;
 }
 
+.width-limiting__button:hover {
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.width-limiting__button:focus {
+  background-color: #FFFFFF;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+  color: #6C0287;
+}
+
+.width-limiting__button:active {
+  background-color: #EADEED;
+  border-radius: 10px;
+}
+
 .width-limiting {
   max-width: 980px;
   display: flex;

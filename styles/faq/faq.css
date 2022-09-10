@@ -15,24 +15,6 @@
   color: #fff;
 }
 
-.faq__item:nth-child(odd):after {
-  content: "";
-  background-image: url("img/open-purple.svg");
-  width: 46px;
-  height: 46px;
-  background-size: 46px 46px;
-  display: inline-block;
-}
-
-.faq__item:nth-child(even):after {
-  content: "";
-  background-image: url("img/open.svg");
-  width: 46px;
-  height: 46px;
-  background-size: 46px 46px;
-  display: inline-block;
-}
-
 .faq__item:last-child {
   margin: 0;
 }

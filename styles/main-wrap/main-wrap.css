@@ -58,10 +58,25 @@
   cursor: pointer;
 }
 
-.main-wrap__down:after {
-  content: '';
-  background-image: url(img/down.svg);
-  background-size: 97px 97px;
+.main-wrap__button:hover {
+  background-color: #840AA3;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.main-wrap__button:focus {
+  background-color: #840AA3;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.main-wrap__button:active {
+  background-color: #640AA3;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.main-wrap__down {
   width: 97px;
   height: 97px;
   display: inline-block;

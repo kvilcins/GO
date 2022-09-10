@@ -8,3 +8,57 @@
   justify-content: center;
   gap: 40px 20px;
 }
+
+.entertainment__item_vr {
+  flex-basis: 380px;
+  background-image: url("img/vr.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.entertainment__item_audio {
+  flex-basis: 380px;
+  background-image: url("img/audio.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.entertainment__item_karaoke {
+  flex-basis: 380px;
+  background-image: url("img/karaoke.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.entertainment__item_games {
+  flex-basis: 380px;
+  background-image: url("img/games.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.entertainment__item_movies {
+  flex-basis: 380px;
+  background-image: url("img/movies.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}
+
+.entertainment__item_ps {
+  flex-basis: 380px;
+  background-image: url("img/ps5.jpg");
+  background-size: 380px 228px;
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+}

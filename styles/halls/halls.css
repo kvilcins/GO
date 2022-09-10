@@ -11,3 +11,35 @@
   align-items: center;
   list-style-type: none;
 }
+
+.halls__item_80s {
+  background-image: url("img/80s-vibes.jpg");
+  background-repeat: no-repeat;
+  background-size: 580px 349px;
+  width: 580px;
+  height: 349px;
+}
+
+.halls__item_star-wars {
+  background-image: url("img/star-wars.jpg");
+  background-repeat: no-repeat;
+  background-size: 580px 349px;
+  width: 580px;
+  height: 349px;
+}
+
+.halls__item_wild-west {
+  background-image: url("img/wild-west.jpg");
+  background-repeat: no-repeat;
+  background-size: 580px 349px;
+  width: 580px;
+  height: 349px;
+}
+
+.halls__item_neon-style {
+  background-image: url("img/neon-style.jpg");
+  background-repeat: no-repeat;
+  background-size: 580px 349px;
+  width: 580px;
+  height: 349px;
+}

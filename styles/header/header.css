@@ -21,3 +21,24 @@
   color: #FFFFFF;
   cursor: pointer;
 }
+
+.header__callback:hover {
+  background-color: #6C0287;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.header__callback:focus {
+  background-color: #6C0287;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.header__callback:active {
+  background-color: #640AA3;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #FFFFFF;
+}

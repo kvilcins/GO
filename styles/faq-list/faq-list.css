@@ -1,0 +1,57 @@
+.faq-list__svg_purple {
+  color: transparent;
+}
+
+.faq-list__svg_white {
+  color: transparent;
+}
+
+.faq-list__path_purple {
+  color: #6C0287;
+}
+
+.faq-list__path_white {
+  color: #ffffff;
+}
+
+.faq-list__svg_white:hover {
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.faq-list__svg_white:hover .faq-list__path_white {
+  color: #6C0287;
+}
+
+.faq-list__svg_white:active {
+  background-color: transparent;
+}
+
+.faq-list__svg_white:active .faq-list__path_white {
+  color: #ffffff;
+}
+
+.faq-list__svg_white:active .faq-list__path_white:first-child {
+  transform: rotate(90deg);
+}
+
+.faq-list__svg_purple:hover {
+  background-color: #6C0287;
+  border-radius: 50px;
+}
+
+.faq-list__svg_purple:hover .faq-list__path_purple {
+  color: #ffffff;
+}
+
+.faq-list__svg_purple:active {
+  background-color: #6C0287;
+}
+
+.faq-list__svg_white:active .faq-list__path_white {
+  color: #ffffff;
+}
+
+.faq-list__svg_purple:active .faq-list__path_purple:first-child {
+  transform: rotate(90deg);
+}

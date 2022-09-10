@@ -1,0 +1,29 @@
+.down-icon__svg {
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+}
+
+.down-icon__circle {
+  color: transparent;
+}
+
+.down-icon__svg:hover {
+  background-color: #ffffff;
+}
+
+.down-icon__svg:hover .down-icon__rect {
+  color: #6C0287;
+}
+
+.down-icon:focus {
+  outline: 1px solid #CD06FF;
+}
+
+.down-icon__svg:active{
+  background-color: #CD06FF;
+  border: none;
+}
+
+.down-icon__svg:active .down-icon__rect {
+  color: #ffffff;
+}

@@ -8,6 +8,10 @@
   gap: 13px;
 }
 
+.date-left__input:focus {
+  outline: 2px solid #CD06FF;
+}
+
 .date-left__input_day {
   height: 52px;
   width: 134px;
