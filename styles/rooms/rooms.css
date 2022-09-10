@@ -4,70 +4,6 @@
   gap: 60px;
 }
 
-/* .rooms__label {
-  display: inline-block;
-  width: 250px;
-  height: 55px;
-  position: relative;
-}
-
-.rooms__label input[type=radio] {
-  z-index: -1;
-  opacity: 0;
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-  width: 250px;
-  height: 55px;
-  padding: 7px 0;
-  background-color: #ffffff;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-  border-radius: 8px;
-  transition: background 0.2s ease;
-  border: 3px solid #ffffff;
-}
-
-.rooms__label input[type=radio]:checked + span {
-  background-color: #6C0287;
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
-  padding: 7px 0;
-  color: #ffffff;
-}
-
-.rooms__span:hover {
-  background-color: #EADEED;
-  border: 3px solid #640AA3;
-  border-radius: 8px;
-  width: 250px;
-  height: 55px;
-}
-
-.rooms__span:focus {
-  background-color: #FFFFFF;
-  border: 3px solid #640AA3;
-  border-radius: 8px;
-  width: 250px;
-  height: 55px;
-}
-
-.rooms__span:active {
-  background-color: #6C0287;
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
-  width: 250px;
-  height: 55px;
-} */
-
-
-
-
-
 .rooms__label {
   display: flex;
   align-items: center;
@@ -81,38 +17,36 @@
   text-transform: uppercase;
   color: #000000;
   cursor: pointer;
-  padding: 7px 0;
   background-color: #ffffff;
   border-radius: 8px;
   transition: background 0.2s ease;
   border: 3px solid #ffffff;
+  position: relative;
 }
 .rooms__input {
-  opacity: 0;
   position: absolute;
   cursor: pointer;
-  width: 250px;
-  height: 55px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  transition: background 0.2s ease;
-  border: 3px solid #ffffff;
+  width: 245px;
+  height: 50px;
   top: 0;
   left: 0;
+  visibility: hidden;
 }
 
-.rooms__input[type=radio]:active {
-  background-color: #6C0287;
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
-  padding: 7px 0;
-  color: #ffffff;
-}
-
-.rooms__label:hover {
+.rooms__label_hover:hover {
   background-color: #EADEED;
   border: 3px solid #640AA3;
   border-radius: 8px;
   width: 250px;
   height: 55px;
+}
+
+.active {
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

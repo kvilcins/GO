@@ -149,19 +149,20 @@
             <fieldset class="form__fieldset fieldset-halls">
               <legend class="fieldset-halls__legend">Выбери зал</legend>
               <fieldset class="fieldset-halls__inner-fieldset rooms">
-                <label class="rooms__label">
+
+                <label class="rooms__label rooms__label_hover">
                   <input type="radio" name="hall" value="80s-vibes" lang="en" class="rooms__input">80's vibes
                 </label>
 
-                <label class="rooms__label">
+                <label class="rooms__label rooms__label_hover">
                   <input type="radio" name="hall" value="star-wars" lang="en" class="rooms__input">star wars
                 </label>
 
-                <label class="rooms__label">
+                <label class="rooms__label rooms__label_hover">
                   <input type="radio" name="hall" value="wild-west" lang="en" class="rooms__input">wild west
                 </label>
 
-                <label class="rooms__label">
+                <label class="rooms__label rooms__label_hover">
                   <input type="radio" name="hall" value="neon-style" lang="en" class="rooms__input">neon style
                 </labeL>
               </fieldset>
@@ -481,12 +482,28 @@
 
   </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   <script>
     document.addEventListener('click', event => {
       if (event.target.matches('button')) {
         event.target.focus()
       }
     })
+
+    $(function() {
+      $('.rooms').on('change', function() {
+        $('label', this).each(function(i, label) {
+          $(label).toggleClass('active', $('input', this).prop('checked'))
+        });
+      });
+    });
+
+    $(".rooms__label").click(function (e) {
+      $(".rooms__label").addClass("rooms__label_hover");
+      $(this).removeClass("rooms__label_hover");
+    });
+
   </script>
 </body>
 </html>

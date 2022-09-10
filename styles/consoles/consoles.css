@@ -19,3 +19,40 @@
   flex-direction: row;
   margin: 0 0 20px 0;
 }
+
+.consoles__input {
+  height: 27px;
+  width: 27px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.consoles__input:focus {
+  outline: 2px solid #CD06FF;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+}
+
+.consoles__input:focus:after {
+  content: '';
+  height: 27px;
+  width: 27px;
+  background-color: #440F51;
+  padding: 4px;
+  border: 8px solid #ffffff;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.consoles__input:checked {
+  height: 27px;
+  width: 27px;
+  background-color: #440F51;
+  padding: 4px;
+  border: 8px solid #ffffff;
+  border-radius: 20px;
+}
