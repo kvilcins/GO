@@ -1,10 +1,13 @@
-.halls__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
+.halls {
+  padding: 50px 0 100px 0;
 }
 
-.halls__item:not(:last-child) {
-  margin: 0 0 60px 0;
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
 }

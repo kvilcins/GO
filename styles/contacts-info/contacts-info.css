@@ -1,0 +1,5 @@
+.contacts-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 156px 0;
+}

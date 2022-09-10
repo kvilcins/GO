@@ -1,0 +1,37 @@
+.date-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 630px;
+  gap: 14px 50px;
+}
+
+.date-right__label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.date-right__input_firstname {
+  width: 280px;
+  height: 52px;
+}
+
+.date-right__input_lastname {
+  width: 280px;
+  height: 52px;
+}
+
+.date-right__input_phone {
+  width: 300px;
+  height: 52px;
+  padding: 10px;
+}
+
+.date-right__input_email {
+  width: 300px;
+  height: 52px;
+}

@@ -1,0 +1,27 @@
+.date-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.date-left__input_day {
+  height: 52px;
+  width: 134px;
+  padding: 12px 20px;
+}
+
+.date-left__input_time {
+  height: 52px;
+  width: 134px;
+  padding: 12px 20px;
+}
+
+.date-left__input_amount{
+  height: 52px;
+  width: 300px;
+  padding: 12px 20px;
+}

@@ -1,0 +1,14 @@
+.fieldset-halls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 0 60px 0;
+}
+
+.fieldset-halls__legend {
+  margin: 0 auto 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}

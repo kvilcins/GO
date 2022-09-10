@@ -1,0 +1,44 @@
+.rooms {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.rooms__label {
+  display: inline-block;
+  width: 250px;
+  height: 55px;
+  position: relative;
+}
+
+.rooms__label input[type=radio] {
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 250px;
+  height: 55px;
+  position: absolute;
+}
+
+.rooms__label span {
+  display: inline-block;
+  cursor: pointer;
+  width: 250px;
+  height: 55px;
+  padding: 8px 0;
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.rooms__label input[type=radio]:checked + span {
+  background: #440F51;
+  border: 1px solid #ffffff;
+  color: #ffffff
+}

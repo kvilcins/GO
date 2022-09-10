@@ -1,0 +1,18 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright__element {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.copyright__element_who {
+  white-space: pre-line;
+  text-align: right;
+}
