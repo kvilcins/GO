@@ -1,6 +1,7 @@
 .down-icon__svg {
   border: 1px solid #ffffff;
   border-radius: 50px;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .down-icon__circle {

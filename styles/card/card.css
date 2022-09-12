@@ -3,6 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 1px #6c0287;
 }
 
 .card__description {

@@ -2,10 +2,12 @@
   width: 50px;
   height: 50px;
   display: block;
+  transition: outline 0.4s ease;
 }
 
 .link-wrap__svg {
   color: #ffffff;
+  transition: outline 0.4s ease, color 0.4s ease;
 }
 
 .link-wrap__svg:hover {

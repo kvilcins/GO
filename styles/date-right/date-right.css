@@ -22,20 +22,24 @@
 .date-right__input_firstname {
   width: 280px;
   height: 52px;
+  transition: outline 0.4s ease;
 }
 
 .date-right__input_lastname {
   width: 280px;
   height: 52px;
+  transition: outline 0.4s ease;
 }
 
 .date-right__input_phone {
   width: 300px;
   height: 52px;
   padding: 10px;
+  transition: outline 0.4s ease;
 }
 
 .date-right__input_email {
   width: 300px;
   height: 52px;
+  transition: outline 0.4s ease;
 }

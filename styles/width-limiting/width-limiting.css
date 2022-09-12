@@ -11,6 +11,7 @@
   text-transform: uppercase;
   color: #6C0287;
   cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
 }
 
 .width-limiting__button:hover {
