@@ -2,9 +2,20 @@
   display: flex;
   flex-direction: row;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .rooms__label {
+  width: 250px;
+  height: 55px;
+}
+
+.rooms__input {
+  width: 250px;
+  height: 55px;
+}
+
+.rooms__input:after {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,19 +32,26 @@
   border-radius: 8px;
   transition: background 0.2s ease;
   border: 3px solid #ffffff;
-  position: relative;
-}
-.rooms__input {
   position: absolute;
-  cursor: pointer;
-  width: 245px;
-  height: 50px;
-  top: 0;
-  left: 0;
-  visibility: hidden;
 }
 
-.rooms__label_hover:hover {
+.rooms__input_80s:after {
+  content: "80's vibes";
+}
+
+.rooms__input_star-wars:after {
+  content: "star wars";
+}
+
+.rooms__input_wild-west:after {
+  content: "wild west";
+}
+
+.rooms__input_neon-style:after {
+  content: "neon style";
+}
+
+.rooms__input:hover:after {
   background-color: #EADEED;
   border: 3px solid #640AA3;
   border-radius: 8px;
@@ -41,7 +59,15 @@
   height: 55px;
 }
 
-.active {
+.rooms__input:focus:after {
+  background-color: #FFFFFF;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+}
+
+.rooms__input:checked:after {
   background-color: #6C0287;
   border: 3px solid #FFFFFF;
   border-radius: 8px;
