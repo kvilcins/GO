@@ -2,4 +2,9 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 22px;
+  transition: color 0.4s ease;
+}
+
+.menu-item__link:hover {
+  color: #CD04FF;
 }

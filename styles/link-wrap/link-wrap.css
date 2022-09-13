@@ -7,7 +7,7 @@
 
 .link-wrap__svg {
   color: #ffffff;
-  transition: outline 0.4s ease, color 0.4s ease;
+  transition: outline 0.4s ease, color 0.4s ease, background-color 0.4s ease;
 }
 
 .link-wrap__svg:hover {

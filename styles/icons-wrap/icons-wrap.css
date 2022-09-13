@@ -8,3 +8,11 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+.icons-wrap__detail_link {
+  transition: color 0.4s ease;
+}
+
+.icons-wrap__detail_link:hover {
+  color: #CD04FF;
+}

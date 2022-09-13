@@ -16,3 +16,13 @@
   white-space: pre-line;
   text-align: right;
 }
+
+.copyright__element_email {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.copyright__element_email:hover {
+  color: #CD04FF;
+}
