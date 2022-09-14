@@ -1,5 +1,5 @@
 .down-icon__svg {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--main-text-color, #FFFFFF);
   border-radius: 50px;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
@@ -9,22 +9,22 @@
 }
 
 .down-icon__svg:hover {
-  background-color: #ffffff;
+  background-color: var(--main-text-color, #FFFFFF);
 }
 
 .down-icon__svg:hover .down-icon__rect {
-  color: #6C0287;
+  color: var(--dark-purple, #6C0287);
 }
 
 .down-icon:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--neon-purple, #CD06FF);
 }
 
 .down-icon__svg:active{
-  background-color: #CD06FF;
+  background-color: var(--neon-purple, #CD06FF);
   border: none;
 }
 
 .down-icon__svg:active .down-icon__rect {
-  color: #ffffff;
+  color: var(--main-text-color, #FFFFFF);
 }

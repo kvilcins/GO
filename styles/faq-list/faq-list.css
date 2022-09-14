@@ -11,20 +11,20 @@
 }
 
 .faq-list__path_purple {
-  color: #6C0287;
+  color: var(--dark-purple, #6C0287);
 }
 
 .faq-list__path_white {
-  color: #ffffff;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .faq-list__svg_white:hover {
-  background-color: #ffffff;
+  background-color: var(--main-text-color, #FFFFFF);
   border-radius: 50px;
 }
 
 .faq-list__svg_white:hover .faq-list__path_white {
-  color: #6C0287;
+  color: var(--dark-purple, #6C0287);
 }
 
 .faq-list__svg_white:active {
@@ -32,7 +32,7 @@
 }
 
 .faq-list__svg_white:active .faq-list__path_white {
-  color: #ffffff;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .faq-list__svg_white:active .faq-list__path_white:first-child {
@@ -42,20 +42,20 @@
 }
 
 .faq-list__svg_purple:hover {
-  background-color: #6C0287;
+  background-color: var(--dark-purple, #6C0287);
   border-radius: 50px;
 }
 
 .faq-list__svg_purple:hover .faq-list__path_purple {
-  color: #ffffff;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .faq-list__svg_purple:active {
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 .faq-list__svg_purple:active .faq-list__path_purple {
-  color: #6C0287;
+  color: var(--dark-purple, #6C0287);
 }
 
 .faq-list__svg_purple:active .faq-list__path_purple:first-child {

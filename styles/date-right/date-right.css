@@ -7,7 +7,7 @@
 }
 
 .date-right__input:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--neon-purple, #CD06FF);
 }
 
 .date-right__label {
@@ -16,7 +16,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .date-right__input_firstname {

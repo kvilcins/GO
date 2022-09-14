@@ -8,7 +8,7 @@
 
 .card:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 20px 1px #6c0287;
+  box-shadow: 0 0 20px 1px var(--dark-purple, #6C0287);
 }
 
 .card__description {

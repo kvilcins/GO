@@ -11,35 +11,35 @@
 .header__callback {
   width: 280px;
   height: 55px;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--neon-purple, #CD06FF);
   border-radius: 10px;
   background-color: transparent;
   font-weight: 700;
   font-size: 22px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
   cursor: pointer;
   transition: background-color 0.4s ease;
 }
 
 .header__callback:hover {
-  background-color: #6C0287;
-  border: 3px solid #6C0287;
+  background-color: var(--dark-purple, #6C0287);
+  border: 3px solid var(--dark-purple, #6C0287);
   border-radius: 10px;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .header__callback:focus {
-  background-color: #6C0287;
+  background-color: var(--dark-purple, #6C0287);
   border-radius: 10px;
   border: none;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .header__callback:active {
-  background-color: #640AA3;
-  border: 1px solid #000000;
+  background-color: var(--cold-purple, #640AA3);
+  border: 1px solid var(--black-color, #000000);
   border-radius: 10px;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
 }

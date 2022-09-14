@@ -14,5 +14,5 @@
 }
 
 .icons-wrap__detail_link:hover {
-  color: #CD04FF;
+  color: var(--neon-purple, #CD06FF);
 }

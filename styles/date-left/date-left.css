@@ -9,7 +9,7 @@
 }
 
 .date-left__input:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--neon-purple, #CD06FF);
 }
 
 .date-left__input_day {

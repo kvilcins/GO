@@ -16,11 +16,11 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--black-color, #000000);
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: var(--main-text-color, #FFFFFF);
   border-radius: 8px;
-  border: 3px solid #ffffff;
+  border: 3px solid var(--main-text-color, #FFFFFF);
   transition: background-color 0.4s ease, border 0.3s ease;
 }
 
@@ -39,11 +39,11 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--black-color, #000000);
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: var(--main-text-color, #FFFFFF);
   border-radius: 8px;
-  border: 3px solid #ffffff;
+  border: 3px solid var(--main-text-color, #FFFFFF);
   transition: background-color 0.4s ease, border 0.3s ease;
 }
 
@@ -64,26 +64,26 @@
 }
 
 .rooms__input:hover:after {
-  background-color: #EADEED;
-  border: 3px solid #640AA3;
+  background-color: var(--beige-hover, #EADEED);
+  border: 3px solid var(--cold-purple, #640AA3);
   border-radius: 8px;
   width: 250px;
   height: 55px;
 }
 
 .rooms__input:focus:after {
-  background-color: #FFFFFF;
-  border: 3px solid #640AA3;
+  background-color: var(--main-text-color, #FFFFFF);
+  border: 3px solid var(--cold-purple, #640AA3);
   border-radius: 8px;
   width: 250px;
   height: 55px;
 }
 
 .rooms__input:checked:after {
-  background-color: #6C0287;
-  border: 3px solid #FFFFFF;
+  background-color: var(--dark-purple, #6C0287);
+  border: 3px solid var(--main-text-color, #FFFFFF);
   border-radius: 8px;
-  color: #ffffff;
+  color: var(--main-text-color, #FFFFFF);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -8,7 +8,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: var(--main-text-color, #FFFFFF);
 }
 
 .board-games__label {
@@ -26,18 +26,18 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #ffffff;
+  background-color: var(--main-text-color, #FFFFFF);
   transition: outline 0.4s ease;
 }
 
 .board-games__input:focus {
-  outline: 2px solid #CD06FF;
+  outline: 2px solid var(--neon-purple, #CD06FF);
 }
 
 .board-games__input:checked {
   height: 25px;
   width: 25px;
-  background-color: #440F51;
+  background-color: var(--dark-violet, #440F51);
   padding: 4px;
-  border: 8px solid #ffffff;
+  border: 8px solid var(--main-text-color, #FFFFFF);
 }
