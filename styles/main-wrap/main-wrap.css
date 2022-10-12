@@ -6,7 +6,7 @@
 .main-banner__text-wrap {
   position: relative;
   height: 823px;
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -20,6 +20,15 @@
   position: absolute;
   top: 63px;
   left: 500px;
+}
+
+.main-banner__container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrap {
+  flex-basis: 1174px;
 }
 
 .main-wrap__item_uppercase {

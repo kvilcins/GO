@@ -18,7 +18,7 @@
   height: 20px;
 }
 
-.quote:after {
+.quote__span_width:after {
   content: "";
   background-image: url("img/quote-before.svg");
   background-size: 20px 20px;
@@ -26,12 +26,12 @@
   transform: rotate(180deg);
   display: inline-block;
   color: var(--dark-purple, #6C0287);
-  line-height: 50px;
-  width: 20px;
-  height: 178px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
 }
 
 .quote__span_width {
-  padding: 0 0 0 7px;
-  width: 346px;
+  padding: 0 7px 0 7px;
+  width: 390px;
 }

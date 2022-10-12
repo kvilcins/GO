@@ -1,5 +1,6 @@
 @import "var.css";
 @import "header/header.css";
+@import "burger/burger.css";
 @import "menu-list/menu-list.css";
 @import "main-wrap/main-wrap.css";
 @import "down-icon/down-icon.css";
@@ -22,8 +23,10 @@
 @import "date/date.css";
 @import "date-left/date-left.css";
 @import "date-right/date-right.css";
-@import "about-us/about-us.css";
 @import "flex-wrapper/flex-wrapper.css";
+@import "flex-img/flex-img.css";
+@import "about-us/about-us.css";
+@import "blockquote-text/blockquote-text.css";
 @import "blockquote-wrapper/blockquote-wrapper.css";
 @import "cite/cite.css";
 @import "quote/quote.css";
@@ -39,3 +42,1011 @@
 @import "link-wrap/link-wrap.css";
 @import "footer/footer.css";
 @import "copyright/copyright.css";
+
+
+@media screen and (max-width: 1320px) {
+  section {
+    padding: 35px 60px 35px 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 36px 0;
+  }
+
+  .header {
+    padding: 30px 60px 0 60px;
+  }
+
+  .footer {
+    padding: 0 60px;
+  }
+
+  .main-banner {
+    padding: 30px 60px 40px 60px;
+  }
+
+  .main-wrap {
+    flex-basis: 904px;
+    height: 583px;
+  }
+
+  .menu-item__link {
+    font-size: 18px;
+  }
+
+  .menu-list {
+    gap: 20px;
+  }
+
+  .header__logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .header__callback {
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .advantages {
+    margin: 0 0 80px 0;
+  }
+
+  .main-wrap__item_uppercase {
+    font-size: 120px;
+    letter-spacing: -11px;
+    margin: 0 0 20px 0;
+  }
+
+  .main-banner__text-wrap:after {
+    background-size: 453px 520px;
+    width: 453px;
+    height: 520px;
+    top: 63px;
+    left: 459px;
+  }
+
+  .entertainment__item_vr {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_audio {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_karaoke {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_games {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment-card {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__list {
+    gap: 30px 20px;
+  }
+
+  .card {
+    flex-basis: 443px;
+  }
+
+  .halls__list {
+    gap: 18px;
+  }
+
+  .halls__item_80s {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_star-wars {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_wild-west {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_neon-style {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .flex-wrapper {
+    grid-template-columns: 420px auto;
+    gap: 0 40px;
+  }
+
+  .flex-wrapper__img {
+    margin: 0;
+  }
+
+  .blockquote-wrapper__description {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 26px;
+  }
+
+  .flex-img {
+    grid-template-rows: 144px 156px 116px;
+  }
+
+  .flex-img__item_vr {
+    background-size: 210px 144px;
+    width: 210px;
+    height: 144px;
+  }
+
+  .flex-img__item_games {
+    background-size: 210px 144px;
+    width: 210px;
+    height: 144px;
+  }
+
+  .flex-img__item_fifa {
+    background-size: 114px 156px;
+    width: 114px;
+    height: 156px;
+  }
+
+  .flex-img__item_pad {
+    background-size: 126px 156px;
+    width: 126px;
+    height: 156px;
+  }
+
+  .flex-img__item_controller {
+    background-size: 180px 156px;
+    width: 180px;
+    height: 156px;
+  }
+
+  .flex-img__item_karaoke {
+    background-size: 266px 116px;
+    width: 266px;
+    height: 116px;
+  }
+
+  .flex-img__item_vr2 {
+    background-size: 154px 116px;
+    width: 154px;
+    height: 116px;
+  }
+
+  .main-wrap__item_padding {
+    padding: 0 0 0 100px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 30px 0;
+  }
+
+  .advantages-text__item {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .advantages-text__item_purple {
+    font-size: 80px;
+    line-height: 113px;
+  }
+
+  .advantages-text__item_small-caps {
+    font-size: 60px;
+    line-height: 85px;
+  }
+
+  .main-wrap__button {
+    border-radius: 10px;
+    margin: 0 0 0 40px;
+    width: 296px;
+    height: 64px;
+    font-size: 22px;
+    line-height: 30px
+  }
+
+  .main-wrap__down {
+    width: 67px;
+    height: 67px;
+    top: 471px;
+    left: 432px;
+  }
+
+  .entertainment-card__description {
+    padding: 0 0 30px 20px;
+  }
+
+  .card__description {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .booking {
+    padding: 80px 60px;
+  }
+
+  .rooms__label {
+    width: 180px;
+    height: 40px;
+  }
+
+  .rooms__input:after {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .rooms__input:hover:after {
+    width: 180px;
+    height: 40px;
+  }
+
+  .rooms__input:focus:after {
+    width: 180px;
+    height: 40px;
+  }
+
+  .date__legend {
+    margin: 0 auto 25px;
+  }
+
+  .date-right__input_firstname {
+    width: 251px;
+  }
+
+  .date-right__label {
+    width: 251px;
+  }
+
+  .date-right__input_lastname {
+    width: 251px;
+  }
+
+  .date-right__input_phone {
+    width: 254px;
+  }
+
+  .date-right__input_email {
+    width: 254px;
+  }
+
+  .width-limiting__button {
+    width: 254px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cite__img {
+    margin: 0 35px 0 0;
+    width: 70px;
+    height: 70px;
+  }
+
+  .cite {
+    font-size: 18px;
+    line-height: 26px;
+    width: 328px;
+  }
+
+  .quote {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .quote:before {
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+  }
+
+  .quote__span_width:after {
+    width: 25px;
+    height: 20px;
+    background-size: 15px 15px;
+  }
+
+  .quote__span_width {
+    padding: 0 0 0 10px;
+    width: 390px;
+  }
+
+  .blockquote-wrapper__description_margin {
+    margin: 0 0 37px 0;
+  }
+
+  .feedbacks-card__img {
+    width: 172px;
+    height: 172px;
+  }
+
+  .feedbacks-card__picture-wrap {
+    min-width: 172px;
+    margin: 0;
+  }
+
+  .feedbacks-card__picture-wrap:before {
+    width: 172px;
+    height: 172px;
+    background-size: 172px 172px;
+  }
+
+  .feedbacks-card__description {
+    font-size: 18px;
+  }
+
+  .feedbacks-card {
+    gap: 38px;
+  }
+
+  .feedbacks__list {
+    gap: 40px;
+    max-width: 751px;
+    margin: 0 auto;
+  }
+
+  .feedbacks-card__review {
+    height: 95px;
+  }
+
+  .faq__list {
+    gap: 17px;
+  }
+
+  .faq__item {
+    font-size: 20px;
+    padding: 12px 20px 12px 30px;
+  }
+
+  .faq-list:last-child {
+    display: none;
+  }
+
+  .faq__item:nth-child(even) {
+    background-color: var(--main-text-color, #FFFFFF);
+    color: var(--dark-grey, #1C1A1A);
+  }
+
+  .faq-list__svg_purple-adaptive {
+    display: inline-block;
+  }
+
+  .faq-list__svg_white {
+    display: none;
+  }
+
+  .link-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icons-wrap__svg {
+    width: 28px;
+  }
+
+  .icons-wrap {
+    gap: 15px;
+  }
+
+  .contacts-map {
+    width: 60%;
+  }
+
+  .copyright {
+    padding: 0 0 19px 0;
+  }
+
+  .contacts-info {
+    margin: 0 0 52px 0;
+  }
+
+  .halls {
+    padding: 35px 0 70px 0;
+  }
+
+  .icons-wrap__address:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .icons-wrap__phone:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .icons-wrap__email:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .link-wrap:focus {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  section {
+    padding: 35px 40px 35px 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 0 30px 0;
+  }
+
+  .header__navigation {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .header {
+    padding: 30px 40px 0 40px;
+  }
+
+  .main-wrap__item_uppercase {
+    font-size: 86px;
+    line-height: 86px;
+    letter-spacing: -8px;
+  }
+
+  .main-banner {
+    padding: 30px 40px 40px 40px;
+  }
+
+  .main-banner__text-wrap:after {
+    background-size: 409px 479px;
+    width: 409px;
+    height: 479px;
+    top: 57px;
+    left: 283px;
+  }
+
+  .about-us {
+    padding: 60px 40px 30px 40px;
+  }
+
+  .flex-img {
+    grid-template-rows: 131px 142px 105px;
+  }
+
+  .flex-img__item_vr {
+    background-size: 191px 131px;
+    width: 191px;
+    height: 131px;
+  }
+
+  .flex-img__item_games {
+    background-size: 191px 131px;
+    width: 191px;
+    height: 131px;
+  }
+
+  .flex-img__item_fifa {
+    background-size: 104px 142px;
+    width: 104px;
+    height: 142px;
+  }
+
+  .flex-img__item_pad {
+    background-size: 114px 142px;
+    width: 114px;
+    height: 142px;
+  }
+
+  .flex-img__item_controller {
+    background-size: 162px 142px;
+    width: 162px;
+    height: 142px;
+  }
+
+  .flex-img__item_karaoke {
+    background-size: 241px 105px;
+    width: 241px;
+    height: 105px;
+  }
+
+  .flex-img__item_vr2 {
+    background-size: 140px 105px;
+    width: 140px;
+    height: 105px;
+  }
+
+  .flex-wrapper {
+    grid-template-columns: 382px auto;
+    gap: 40px 28px;
+  }
+
+  .flex-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .blockquote-text {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    align-self: center;
+  }
+
+  .flex-wrapper__blockquote {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .blockquote-text__description {
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0 0 30px;
+  }
+
+  .quote__span_width {
+    width: fit-content;
+    font-size: 32px;
+  }
+
+  .icons-wrap {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-info {
+    margin: 0 0 40px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts-addresses__icons-wrap_margin {
+    margin: 0 0 27px 0;
+  }
+
+  .contacts-addresses__icons-wrap {
+    margin: 0 0 27px 0;
+  }
+
+  .contacts-addresses__list {
+    list-style-type: none;
+    display: flex;
+    gap: 26px;
+    padding: unset;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+  }
+
+  .contacts-map {
+    width: 100%;
+    height: 337px;
+    max-height: 337px;
+  }
+
+  .entertainment-card {
+    flex-basis: 334px;
+    background-size: 334px 200px;
+    width: 334px;
+    height: 200px;
+  }
+
+  .entertainment__item_audio {
+    margin: unset;
+  }
+
+  .entertainment__item_movies {
+    margin: unset;
+  }
+
+  .entertainment__list {
+    gap: 20px;
+  }
+
+  .main-wrap {
+    flex-basis: 688px;
+    height: 537px;
+  }
+
+  .main-wrap__item_padding {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 50px 0;
+  }
+
+  .advantages {
+    gap: 32px;
+  }
+
+  .advantages-text__item {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .advantages-text {
+    flex-basis: 103px;
+  }
+
+  .advantages-text__item_purple {
+    font-size: 50px;
+    line-height: 71px;
+  }
+
+  .advantages-text__item_small-caps {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .main-wrap__button {
+    margin: unset;
+    border-radius: 4px;
+    width: 214px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main-wrap__button:hover {
+    border-radius: 4px;
+  }
+
+  .main-wrap__button:focus {
+    border-radius: 4px;
+  }
+
+  .main-wrap__button:active {
+    border-radius: 4px;
+  }
+
+  .main-wrap__down {
+    display: none;
+  }
+
+  .entertainment__list {
+    margin: unset;
+  }
+
+  .card {
+    flex-basis: 335px;
+  }
+
+  .halls__item_80s {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_star-wars {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_wild-west {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_neon-style {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .card__description {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .booking {
+    padding: 50px 40px;
+  }
+
+  .fieldset-halls__legend {
+    margin: 0 auto 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .rooms__label {
+    width: 150px;
+    height: 38px;
+  }
+
+  .rooms {
+    gap: 29px;
+  }
+
+  .rooms__input:after {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .rooms__input:hover:after {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .rooms__input:focus:after {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .rooms__input:checked:after {
+    width: 150px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .fieldset-entertainment {
+    display: flex;
+    flex-direction: row;
+    gap: 30px 164px;
+    margin: 0 0 50px 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .consoles__input {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+
+  .consoles__input:focus:after {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .consoles__input:checked {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .board-games__input {
+    height: 40px;
+    width: 40px;
+  }
+
+  .board-games__input:focus:after {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .board-games__input:checked {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .additional__input {
+    height: 40px;
+    width: 40px;
+  }
+
+  .additional__input:focus:after {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .additional__input:checked {
+    height: 40px;
+    width: 40px;
+    border: 10px solid var(--main-text-color, #FFFFFF);
+  }
+
+  .faq__item {
+    padding: 12px 20px 12px 54px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .feedbacks-card__img {
+    width: 153px;
+    height: 153px;
+  }
+
+  .feedbacks-card__picture-wrap:before {
+    width: 153px;
+    height: 153px;
+    background-size: 153px 153px;
+  }
+
+  .feedbacks-card__description {
+    font-size: 14px;
+  }
+
+  .feedbacks-card {
+    gap: 15px;
+  }
+
+  .feedbacks-card__review {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 373px;
+  }
+
+  .date-left__label_amount {
+    margin-left: auto;
+  }
+
+  .date {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .date-right__label {
+    width: auto;
+  }
+
+  .date-left {
+    display: flex;
+    flex-direction: row;
+    flex-basis: unset;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .date-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: unset;
+    gap: 14px;
+    justify-content: space-between;
+  }
+
+  .date-right__input_firstname {
+    width: 280px;
+  }
+
+  .date-right__input_phone {
+    width: 300px;
+  }
+
+  .date-right__input_email {
+    width: 300px;
+  }
+
+  .date-right__input_lastname {
+    width: 280px;
+  }
+
+  .date__legend {
+    margin: 0 auto 30px;
+  }
+
+  .contacts-addresses__icons-wrap {
+    text-align: center;
+    position: relative;
+    display: inherit;
+  }
+
+  .icons-wrap__address:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    position: absolute;
+    left: 41px;
+  }
+
+  .icons-wrap__phone:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    position: absolute;
+    left: -15px;
+  }
+
+  .icons-wrap__email:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    position: absolute;
+    left: -40px;
+  }
+
+  .width-limiting__button {
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__callback {
+    display: none;
+  }
+
+  .main-banner__text-wrap:after {
+    background-size: cover;
+    width: 300px;
+    height: 339px;
+    top: 49px;
+    left: 259px;
+  }
+
+  .main-wrap__item_uppercase {
+    font-size: 73px;
+    line-height: 75px;
+    letter-spacing: -7px;
+  }
+
+  .advantages {
+    margin: 0 0 66px 0;
+  }
+
+  .main-wrap {
+    flex-basis: 560px;
+    height: 390px;
+  }
+
+  .blockquote-text__description {
+    line-height: 22px;
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+}

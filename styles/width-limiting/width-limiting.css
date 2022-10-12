@@ -11,6 +11,7 @@
   text-transform: uppercase;
   color: #6C0287;
   cursor: pointer;
+  box-shadow: 0 0 20px 1px var(--main-text-color, #FFFFFF);
   transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
 }
 

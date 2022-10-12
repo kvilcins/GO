@@ -1,0 +1,81 @@
+.burger {
+  display: none;
+  position: relative;
+  width: 54px;
+  height: 29px;
+  z-index: 3;
+  float: right;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger__span {
+  background-color: var(--dark-purple, #6C0287);
+  left: 0;
+  width: 100%;
+  height: 5px;
+  top: 9px;
+  transition: all 0.3s ease 0s;
+  border-radius: 2px;
+}
+
+.burger:before {
+  content: '';
+  background-color: var(--dark-purple, #6C0287);
+  width: 100%;
+  height: 5px;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  border-radius: 2px;
+  top: 0;
+}
+
+.burger:after {
+  content: '';
+  background-color: var(--dark-purple, #6C0287);
+  width: 31px;
+  height: 5px;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  border-radius: 2px;
+  bottom: 0;
+}
+
+.burger:hover .burger__span {
+  background-color: var(--neon-purple, #CD06FF);
+}
+
+.burger:hover:before {
+  background-color: var(--neon-purple, #CD06FF);
+}
+
+.burger:hover:after {
+  background-color: var(--neon-purple, #CD06FF);
+}
+
+.burger:focus {
+  border: 1px solid var(--neon-purple, #CD06FF);
+  outline: none;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.burger:active:before {
+  transform: rotate(45deg);
+  top: 25px;
+  position: absolute;
+}
+
+.burger:active:after {
+  transform: rotate(-45deg);
+  width: 100%;
+  bottom: 25px;
+  position: absolute;
+}
+
+.burger:active .burger__span {
+  transform: scale(0);
+}

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   flex-basis: 630px;
   gap: 14px 50px;
+  justify-content: flex-end;
 }
 
 .date-right__input:focus {

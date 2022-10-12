@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 0 21px 0;
 }
 
 .copyright__element {
@@ -17,12 +18,12 @@
   text-align: right;
 }
 
-.copyright__element_email {
+.copyright__element-email {
   color: var(--main-text-color, #FFFFFF);
   text-decoration: none;
   transition: color 0.4s ease;
 }
 
-.copyright__element_email:hover {
+.copyright__element-email:hover {
   color: var(--neon-purple, #CD06FF);
 }

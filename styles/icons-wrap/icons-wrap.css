@@ -1,18 +1,45 @@
+.icons-wrap {
+  display: flex;
+  gap: 30px;
+}
+
 .icons-wrap__detail_address {
   white-space: pre-line;
   font-style: normal;
 }
 
 .icons-wrap__detail {
-  margin: 0 0 0 30px;
   font-size: 24px;
   font-weight: 700;
+  margin: 0;
 }
 
-.icons-wrap__detail_link {
+.icons-wrap__detail-link {
   transition: color 0.4s ease;
 }
 
-.icons-wrap__detail_link:hover {
+.icons-wrap__detail-link:hover {
   color: var(--neon-purple, #CD06FF);
+}
+
+.icons-wrap__address:before {
+  content: '';
+  background-image: url("img/location.svg");
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.icons-wrap__phone:before {
+  content: '';
+  background-image: url("img/bx_bxs-phone-call.svg");
+  width: 32px;
+  height: 32px;
+}
+
+.icons-wrap__email:before {
+  content: '';
+  background-image: url("img/envelope.svg");
+  width: 32px;
+  height: 32px;
 }

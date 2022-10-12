@@ -10,6 +10,10 @@
   border-radius: 50px;
 }
 
+.faq-list__svg_purple-adaptive {
+  display: none;
+}
+
 .faq-list__path_purple {
   color: var(--dark-purple, #6C0287);
 }
