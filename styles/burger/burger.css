@@ -63,16 +63,33 @@
   align-content: center;
 }
 
-.burger:active:before {
+.burger:focus:before {
   transform: rotate(45deg);
   top: 25px;
+  position: absolute;
+}
+
+.burger:focus:after {
+  transform: rotate(-45deg);
+  width: 100%;
+  bottom: 26px;
+  position: absolute;
+}
+
+.burger:focus .burger__span {
+  transform: scale(0);
+}
+
+.burger:active:before {
+  transform: rotate(45deg);
+  top: 12px;
   position: absolute;
 }
 
 .burger:active:after {
   transform: rotate(-45deg);
   width: 100%;
-  bottom: 25px;
+  bottom: 12px;
   position: absolute;
 }
 

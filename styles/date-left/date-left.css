@@ -32,3 +32,29 @@
   padding: 12px 20px;
   transition: outline 0.4s ease;
 }
+
+.date-left__input::-webkit-input-placeholder {
+  color: var(--black-color, #000000);
+}
+
+.date-left__input::-moz-placeholder {
+  color: var(--black-color, #000000);
+  opacity:  1;
+}
+
+.date-left__input::-moz-placeholder {
+  color: var(--black-color, #000000);
+  opacity:  1;
+}
+
+.date-left__input::-ms-input-placeholder {
+  color: var(--black-color, #000000);
+}
+
+.date-left__input::-ms-input-placeholder {
+  color: var(--black-color, #000000);
+}
+
+.date-left__input::placeholder {
+  color: var(--black-color, #000000);
+}
