@@ -76,3 +76,158 @@
   grid-column: 9 / 13;
 }
 
+@media screen and (max-width: 1320px) {
+  .flex-img {
+    grid-template-rows: 144px 156px 116px;
+  }
+
+  .flex-img__item_vr {
+    background-size: 210px 144px;
+    width: 210px;
+    height: 144px;
+  }
+
+  .flex-img__item_games {
+    background-size: 210px 144px;
+    width: 210px;
+    height: 144px;
+  }
+
+  .flex-img__item_fifa {
+    background-size: 114px 156px;
+    width: 114px;
+    height: 156px;
+  }
+
+  .flex-img__item_pad {
+    background-size: 126px 156px;
+    width: 126px;
+    height: 156px;
+  }
+
+  .flex-img__item_controller {
+    background-size: 180px 156px;
+    width: 180px;
+    height: 156px;
+  }
+
+  .flex-img__item_karaoke {
+    background-size: 266px 116px;
+    width: 266px;
+    height: 116px;
+  }
+
+  .flex-img__item_vr2 {
+    background-size: 154px 116px;
+    width: 154px;
+    height: 116px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .flex-img {
+    grid-template-rows: 131px 142px 105px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .flex-img__item_vr {
+    background-size: 191px 131px;
+    width: 191px;
+    height: 131px;
+  }
+
+  .flex-img__item_games {
+    background-size: 191px 131px;
+    width: 191px;
+    height: 131px;
+  }
+
+  .flex-img__item_fifa {
+    background-size: 104px 142px;
+    width: 104px;
+    height: 142px;
+  }
+
+  .flex-img__item_pad {
+    background-size: 114px 142px;
+    width: 114px;
+    height: 142px;
+  }
+
+  .flex-img__item_controller {
+    background-size: 162px 142px;
+    width: 162px;
+    height: 142px;
+  }
+
+  .flex-img__item_karaoke {
+    background-size: 241px 105px;
+    width: 241px;
+    height: 105px;
+  }
+
+  .flex-img__item_vr2 {
+    background-size: 140px 105px;
+    width: 140px;
+    height: 105px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flex-img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 382px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .flex-img {
+    grid-template-rows: 96px 105px 77px;
+    width: 280px;
+  }
+
+  .flex-img__item_vr {
+    background-size: 140px 96px;
+    width: 140px;
+    height: 96px;
+  }
+
+  .flex-img__item_games {
+    background-size: 140px 96px;
+    width: 140px;
+    height: 96px;
+  }
+
+  .flex-img__item_fifa {
+    background-size: 76px 105px;
+    width: 76px;
+    height: 105px;
+  }
+
+  .flex-img__item_pad {
+    background-size: 84px 105px;
+    width: 84px;
+    height: 105px;
+  }
+
+  .flex-img__item_controller {
+    background-size: 119px 105px;
+    width: 119px;
+    height: 105px;
+  }
+
+  .flex-img__item_karaoke {
+    background-size: 177px 77px;
+    width: 177px;
+    height: 77px;
+  }
+
+  .flex-img__item_vr2 {
+    background-size: 102px 77px;
+    width: 102px;
+    height: 77px;
+  }
+}

@@ -43,3 +43,95 @@
   width: 580px;
   height: 349px;
 }
+
+@media screen and (max-width: 1320px) {
+  .halls {
+    padding: 35px 0 70px 0;
+  }
+
+  .halls__list {
+    gap: 18px;
+  }
+
+  .halls__item_80s {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_star-wars {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_wild-west {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+
+  .halls__item_neon-style {
+    background-size: 443px 267px;
+    width: 443px;
+    height: 267px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .halls__item_80s {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_star-wars {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_wild-west {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+
+  .halls__item_neon-style {
+    background-size: 335px 200px;
+    width: 335px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .halls__item_80s {
+    background-size: 280px 168px;
+    width: 280px;
+    height: 168px;
+  }
+
+  .halls__item_star-wars {
+    background-size: 280px 168px;
+    width: 280px;
+    height: 168px;
+  }
+
+  .halls__item_wild-west {
+    background-size: 280px 168px;
+    width: 280px;
+    height: 168px;
+  }
+
+  .halls__item_neon-style {
+    background-size: 280px 168px;
+    width: 280px;
+    height: 168px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .halls {
+    padding: 15px 20px 30px 20px;
+  }
+}

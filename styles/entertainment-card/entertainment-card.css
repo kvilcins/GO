@@ -20,3 +20,44 @@
   margin: 0;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 1320px) {
+  .entertainment-card {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment-card__description {
+    padding: 0 0 30px 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .entertainment-card {
+    flex-basis: 334px;
+    background-size: 334px 200px;
+    width: 334px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .entertainment-card {
+    flex-basis: 135px;
+    background-size: 135px 75px;
+    width: 135px;
+    height: 75px;
+  }
+
+  .entertainment-card__description {
+    padding: 0 0 3px 10px;
+    font-size: 10px;
+    line-height: 14px;
+    height: 44px;
+    width: 135px;
+    white-space: normal;
+  }
+}

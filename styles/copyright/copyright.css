@@ -27,3 +27,23 @@
 .copyright__element-email:hover {
   color: var(--neon-purple, #CD06FF);
 }
+
+@media screen and (max-width: 1320px) {
+  .copyright {
+    padding: 0 0 19px 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .copyright {
+    display: flex;
+    padding: 0 0 24px 0;
+    flex-direction: column;
+  }
+
+  .copyright__element_who {
+    white-space: pre-line;
+    text-align: center;
+    line-height: 23px;
+  }
+}

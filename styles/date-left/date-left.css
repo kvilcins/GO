@@ -19,6 +19,30 @@
   transition: outline 0.4s ease;
 }
 
+.date-left__label {
+  position: relative;
+}
+
+.date-left__label:before {
+  content: "";
+  position: absolute;
+  left: 91px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("img/placeholder.svg") center / contain no-repeat;
+}
+
+.date-left__label_amount:before {
+  content: "";
+  position: absolute;
+  left: 257px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("img/placeholder.svg") center / contain no-repeat;
+}
+
 .date-left__input_time {
   height: 52px;
   width: 134px;
@@ -34,27 +58,80 @@
 }
 
 .date-left__input::-webkit-input-placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
 }
 
 .date-left__input::-moz-placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
   opacity:  1;
 }
 
 .date-left__input::-moz-placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
   opacity:  1;
 }
 
 .date-left__input::-ms-input-placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
 }
 
 .date-left__input::-ms-input-placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
 }
 
 .date-left__input::placeholder {
-  color: var(--black-color, #000000);
+  color: var(--placeholder, #211E1E);
+}
+
+@media screen and (max-width: 1023px) {
+  .date-left {
+    display: flex;
+    flex-direction: row;
+    flex-basis: unset;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .date-left__label_amount {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .date-left {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .date-left__input_amount {
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .date-left__label {
+    width: 100%;
+  }
+
+  .date-left__label_amount {
+    margin-left: unset;
+    width: 100%;
+    grid-column: 1 / 3;
+  }
+
+  .date-left__input_day {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+  }
+
+  .date-left__input_time {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+  }
 }

@@ -43,3 +43,48 @@
   border-radius: 10px;
   color: var(--main-text-color, #FFFFFF);
 }
+
+@media screen and (max-width: 1320px) {
+  .header {
+    padding: 30px 60px 0 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 30px 40px 0 40px;
+  }
+
+  .header__logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .header__callback {
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .header__navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__callback {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header {
+    padding: 20px 20px 0 20px;
+  }
+
+  .header__logo {
+    width: 66px;
+    height: 42px;
+  }
+}

@@ -7,6 +7,40 @@
   line-height: 28px;
 }
 
+.cite__ceo {
+  margin: 0;
+}
+
 .cite__img {
   margin: 0 30px 0 0;
+}
+
+@media screen and (max-width: 1320px) {
+  .cite__img {
+    margin: 0 35px 0 0;
+    width: 70px;
+    height: 70px;
+  }
+
+  .cite {
+    font-size: 18px;
+    line-height: 26px;
+    width: 328px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .cite {
+    font-size: 12px;
+    line-height: 16px;
+    width: auto;
+    white-space: pre-line;
+    float: left;
+  }
+
+  .cite__img {
+    margin: 0 11px 0 0;
+    width: 56px;
+    height: 56px;
+  }
 }

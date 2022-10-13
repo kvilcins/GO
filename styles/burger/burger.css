@@ -54,6 +54,20 @@
   background-color: var(--neon-purple, #CD06FF);
 }
 
+.burger.active:hover .burger__span {
+  background-color: var(--neon-purple, #CD06FF);
+}
+
+.burger.active:hover:before {
+  background-color: var(--neon-purple, #CD06FF);
+  transition: all 0.3s ease 0s;
+}
+
+.burger.active:hover:after {
+  background-color: var(--neon-purple, #CD06FF);
+  transition: all 0.3s ease 0s;
+}
+
 .burger:focus {
   border: 1px solid var(--neon-purple, #CD06FF);
   outline: none;
@@ -61,38 +75,208 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  position: relative;
 }
 
-.burger:focus:before {
-  transform: rotate(45deg);
+.burger.active:focus:before {
+  position: absolute;
   top: 25px;
-  position: absolute;
+  background-color: var(--dark-purple, #6C0287);
+  transition: all 0.3s ease 0s;
 }
 
-.burger:focus:after {
-  transform: rotate(-45deg);
-  width: 100%;
+.burger.active:focus:after {
+  position: absolute;
   bottom: 26px;
-  position: absolute;
+  width: 100%;
+  background-color: var(--dark-purple, #6C0287);
+  transition: all 0.3s ease 0s;
 }
 
-.burger:focus .burger__span {
+.burger.active:focus .burger__span {
   transform: scale(0);
+}
+
+.burger:active {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
 }
 
 .burger:active:before {
   transform: rotate(45deg);
-  top: 12px;
+  top: 25px;
   position: absolute;
+  background-color: #840AA3;
 }
 
 .burger:active:after {
   transform: rotate(-45deg);
   width: 100%;
-  bottom: 12px;
+  bottom: 26px;
   position: absolute;
+  background-color: #840AA3;
 }
 
 .burger:active .burger__span {
   transform: scale(0);
+}
+
+.burger.active {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.burger.active:before {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 26px;
+  background-color: var(--dark-purple, #6C0287);
+  transition: top 0s;
+}
+
+.burger.active:after {
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 27px;
+  width: 100%;
+  background-color: var(--dark-purple, #6C0287);
+  transition: bottom 0s;
+}
+
+.burger.active:active {
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.burger.active:active:before {
+  position: absolute;
+  top: 25px;
+  background-color: var(--dark-purple, #6C0287);
+}
+
+.burger.active:active:after {
+  position: absolute;
+  bottom: 26px;
+  width: 100%;
+  background-color: var(--dark-purple, #6C0287);
+}
+
+.burger.active .burger__span {
+  transform: scale(0);
+}
+
+/*.burger:focus:before {*/
+/*  content: '';*/
+/*  background-color: var(--dark-purple, #6C0287);*/
+/*  width: 100%;*/
+/*  height: 5px;*/
+/*  left: 0;*/
+/*  transition: all 0.3s ease 0s;*/
+/*  border-radius: 2px;*/
+/*  top: 0;*/
+/*}*/
+
+/*.burger:focus:after {*/
+/*  content: '';*/
+/*  background-color: var(--dark-purple, #6C0287);*/
+/*  width: 31px;*/
+/*  height: 5px;*/
+/*  left: 0;*/
+/*  transition: all 0.3s ease 0s;*/
+/*  border-radius: 2px;*/
+/*  bottom: 0;*/
+/*}*/
+
+/*.burger:focus .burger__span {*/
+/*  background-color: var(--dark-purple, #6C0287);*/
+/*}*/
+
+
+@media screen and (max-width: 1023px) {
+  .burger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .burger {
+    width: 39px;
+    height: 20px;
+    gap: 4px;
+  }
+
+  .burger:after {
+    width: 22px;
+    height: 4px;
+  }
+
+  .burger:before {
+    height: 4px;
+  }
+
+  .burger__span {
+    height: 4px;
+  }
+
+  .burger:focus {
+    height: 39px;
+  }
+
+  .burger.active:focus:before {
+    top: 17px;
+  }
+
+  .burger.active:focus:after {
+    bottom: 16px;
+  }
+
+  .burger:active {
+    height: 39px;
+  }
+
+  .burger:active:before {
+    top: 17px;
+  }
+
+  .burger:active:after {
+    bottom: 18px;
+  }
+
+  .burger.active {
+    height: 39px;
+  }
+
+  .burger.active:before {
+    top: 18px;
+  }
+
+  .burger.active:after {
+    bottom: 17px;
+  }
+
+  .burger.active:active {
+    height: 39px;
+  }
+
+  .burger.active:active:before {
+    top: 17px;
+  }
+
+  .burger.active:active:after {
+    bottom: 18px;
+  }
 }

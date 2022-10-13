@@ -13,3 +13,30 @@
   line-height: 28px;
   color: var(--main-text-color, #FFFFFF);
 }
+
+@media screen and (max-width: 1320px) {
+  .date__legend {
+    margin: 0 auto 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .date {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .date__legend {
+    margin: 0 auto 30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .date__legend {
+    margin: 0 auto 25px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

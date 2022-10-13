@@ -66,3 +66,66 @@
   width: 380px;
   height: 228px;
 }
+
+@media screen and (max-width: 1320px) {
+  .entertainment__item_vr {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_audio {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_karaoke {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__item_games {
+    flex-basis: 287px;
+    background-size: 287px 172px;
+    background-repeat: no-repeat;
+    width: 287px;
+    height: 172px;
+  }
+
+  .entertainment__list {
+    gap: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .entertainment__item_audio {
+    margin: unset;
+  }
+
+  .entertainment__item_movies {
+    margin: unset;
+  }
+
+  .entertainment__list {
+    gap: 20px;
+  }
+
+  .entertainment__list {
+    margin: unset;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .entertainment__item_movies {
+    width: 130px;
+    white-space: normal;
+  }
+}

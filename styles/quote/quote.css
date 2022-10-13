@@ -35,3 +35,55 @@
   padding: 0 7px 0 7px;
   width: 390px;
 }
+
+@media screen and (max-width: 1320px) {
+  .quote {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .quote:before {
+    width: 15px;
+    height: 15px;
+    background-size: 15px 15px;
+  }
+
+  .quote__span_width:after {
+    width: 25px;
+    height: 20px;
+    background-size: 15px 15px;
+  }
+
+  .quote__span_width {
+    padding: 0 0 0 10px;
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .quote__span_width {
+    width: fit-content;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .quote__span_width {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 0 0 7px;
+  }
+
+  .quote:before {
+    width: 11px;
+    height: 11px;
+    background-size: 11px 11px;
+  }
+
+  .quote__span_width:after{
+    width: 19px;
+    height: 11px;
+    background-size: 11px 11px;
+  }
+}

@@ -19,3 +19,35 @@
   background-color: var(--dark-violet, #440F51);
   color: var(--main-text-color, #FFFFFF);
 }
+
+@media screen and (max-width: 1320px) {
+  .faq__list {
+    gap: 17px;
+  }
+
+  .faq__item {
+    font-size: 20px;
+    padding: 12px 20px 12px 30px;
+  }
+
+  .faq__item:nth-child(even) {
+    background-color: var(--main-text-color, #FFFFFF);
+    color: var(--dark-grey, #1C1A1A);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .faq__item {
+    padding: 12px 20px 12px 54px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .faq__item {
+    padding: 7px 13px 7px 10px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

@@ -12,3 +12,27 @@
   line-height: 28px;
   color: var(--main-text-color, #FFFFFF);
 }
+
+@media screen and (max-width: 1023px) {
+  .fieldset-halls__legend {
+    margin: 0 auto 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .fieldset-halls {
+    margin: 0 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .fieldset-halls {
+    margin: 0 0 30px 0;
+  }
+
+  .fieldset-halls__legend {
+    margin: 0 auto 15px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

@@ -44,3 +44,78 @@
   height: 52px;
   transition: outline 0.4s ease;
 }
+
+@media screen and (max-width: 1320px) {
+  .date-right__input_firstname {
+    width: 251px;
+  }
+
+  .date-right__label {
+    width: 251px;
+  }
+
+  .date-right__input_lastname {
+    width: 251px;
+  }
+
+  .date-right__input_phone {
+    width: 254px;
+  }
+
+  .date-right__input_email {
+    width: 254px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .date-right__label {
+    width: auto;
+  }
+
+  .date-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: unset;
+    gap: 14px;
+    justify-content: space-between;
+  }
+
+  .date-right__input_firstname {
+    width: 280px;
+  }
+
+  .date-right__input_phone {
+    width: 300px;
+  }
+
+  .date-right__input_email {
+    width: 300px;
+  }
+
+  .date-right__input_lastname {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .date-right__label {
+    width: 100%;
+  }
+
+  .date-right__input_firstname {
+    width: 100%;
+  }
+
+  .date-right__input_lastname {
+    width: 100%;
+  }
+
+  .date-right__input_phone {
+    width: 100%;
+  }
+
+  .date-right__input_email {
+    width: 100%;
+  }
+}

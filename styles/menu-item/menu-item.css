@@ -8,3 +8,9 @@
 .menu-item__link:hover {
   color: var(--neon-purple, #CD06FF);
 }
+
+@media screen and (max-width: 1320px) {
+  .menu-item__link {
+    font-size: 18px;
+  }
+}
