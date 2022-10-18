@@ -1,16 +1,10 @@
 .footer {
-  background-color: var(--background-footer-color, #370A37);
-  padding: 0 0 10px 0;
+  background: var(--background-color, linear-gradient(180deg, #1B1A1B 0%, #370A37 100%));
+  /*padding: 0 0 10px 0;*/
 }
 
-@media screen and (max-width: 1320px) {
-  .footer {
-    padding: 0 60px;
-  }
-}
+/*.footer {*/
+/*  background-color: var(--background-footer-color, #370A37);*/
+/*  padding: 0 0 10px 0;*/
+/*}*/
 
-@media screen and (max-width: 1023px) {
-  .footer {
-    padding: 0 40px;
-  }
-}

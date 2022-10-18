@@ -18,11 +18,56 @@
   color: var(--main-text-color, #FFFFFF);
 }
 
-.faq-list__svg_white:hover {
+.faq-list_white:hover .faq-list__svg_white {
   background-color: var(--main-text-color, #FFFFFF);
   border-radius: 50px;
 }
 
+.faq-list_white:hover .faq-list__path_white {
+  color: var(--dark-purple, #6C0287);
+}
+
+.faq-list_white:active .faq-list__svg_white {
+  background-color: transparent;
+}
+
+.faq-list_white:active .faq-list__path_white {
+  color: var(--main-text-color, #FFFFFF);
+}
+
+.faq-list_white:active .faq-list__path_white:first-child {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: transform 0.6s ease, color 0.4s ease;
+}
+
+.faq-list_purple:hover .faq-list__svg_purple {
+  background-color: var(--dark-purple, #6C0287);
+  border-radius: 50px;
+}
+
+.faq-list_purple:hover .faq-list__path_purple {
+  color: var(--main-text-color, #FFFFFF);
+}
+
+.faq-list_purple:active .faq-list__svg_purple {
+  background-color: transparent;
+}
+
+.faq-list_purple:active .faq-list__path_purple {
+  color: var(--dark-purple, #6C0287);
+}
+
+.faq-list_purple:active .faq-list__path_purple:first-child {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: transform 0.6s ease, color 0.4s ease;
+}
+
+/*.faq-list__svg_white:hover {
+  background-color: var(--main-text-color, #FFFFFF);
+  border-radius: 50px;
+}
 .faq-list__svg_white:hover .faq-list__path_white {
   color: var(--dark-purple, #6C0287);
 }
@@ -62,7 +107,7 @@
   transform: rotate(-90deg);
   transform-origin: center;
   transition: transform 0.6s ease, color 0.4s ease;
-}
+}*/
 
 @media screen and (max-width: 1320px) {
   .faq-list:last-child {
@@ -77,24 +122,24 @@
     color: var(--dark-purple, #6C0287);
   }
 
-  .faq-list__svg_white:hover {
+  .faq-list_white:hover .faq-list__svg_white {
     background-color: var(--dark-purple, #6C0287);
     border-radius: 50px;
   }
 
-  .faq-list__svg_white:hover .faq-list__path_white {
+  .faq-list_white:hover .faq-list__path_white {
     color: var(--main-text-color, #FFFFFF);
   }
 
-  .faq-list__svg_white:active .faq-list__path_white {
+  .faq-list_white:active .faq-list__path_white {
     color: var(--dark-purple, #6C0287);
   }
 
-  .faq-list__svg_white:active .faq-list__path_white {
+  .faq-list_white:active .faq-list__path_white {
     color: var(--dark-purple, #6C0287);
   }
 
-  .faq-list__svg_white:active {
+  .faq-list_white:active .faq-list__svg_white {
     background-color: transparent;
   }
 }

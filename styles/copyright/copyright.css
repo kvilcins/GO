@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0 21px 0;
 }
 
 .copyright__element {
@@ -28,16 +27,9 @@
   color: var(--neon-purple, #CD06FF);
 }
 
-@media screen and (max-width: 1320px) {
-  .copyright {
-    padding: 0 0 19px 0;
-  }
-}
-
 @media screen and (max-width: 630px) {
   .copyright {
     display: flex;
-    padding: 0 0 24px 0;
     flex-direction: column;
   }
 

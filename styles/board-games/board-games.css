@@ -18,6 +18,7 @@
   justify-content: flex-start;
   flex-direction: row;
   margin: 0 0 20px 0;
+  width: fit-content;
 }
 
 .board-games__label:last-child {

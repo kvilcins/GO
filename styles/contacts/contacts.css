@@ -1,3 +1,25 @@
+/*.contacts {*/
+/*  background: var(--background-color, linear-gradient(180deg, #1B1A1B 0%, #370A37 100%));*/
+/*}*/
+
 .contacts {
-  background: var(--background-color, linear-gradient(180deg, #1B1A1B 0%, #370A37 100%));
+  padding: 50px 0 20px 0;
+}
+
+@media screen and (max-width: 1320px) {
+  .contacts {
+    padding: 35px 60px 20px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contacts {
+    padding: 35px 40px 20px 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contacts {
+    padding: 20px 15px 24px 15px;
+  }
 }

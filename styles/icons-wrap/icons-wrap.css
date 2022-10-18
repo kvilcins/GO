@@ -1,17 +1,15 @@
-.icons-wrap {
+.icons-wrap__detail {
   display: flex;
   gap: 30px;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 11px 0;
 }
 
 .icons-wrap__detail_address {
   white-space: pre-line;
-  font-style: normal;
-}
-
-.icons-wrap__detail {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
+  margin: 0 0 40px 0;
 }
 
 .icons-wrap__detail-link {
@@ -22,7 +20,7 @@
   color: var(--neon-purple, #CD06FF);
 }
 
-.icons-wrap_address:before {
+.icons-wrap__detail_address:before {
   content: '';
   background-image: url("img/location.svg");
   background-size: 32px 32px;
@@ -30,14 +28,14 @@
   height: 32px;
 }
 
-.icons-wrap_phone:before {
+.icons-wrap__detail_phone:before {
   content: '';
   background-image: url("img/bx_bxs-phone-call.svg");
   width: 32px;
   height: 32px;
 }
 
-.icons-wrap_email:before {
+.icons-wrap__detail_email:before {
   content: '';
   background-image: url("img/envelope.svg");
   width: 32px;
@@ -49,23 +47,23 @@
     width: 28px;
   }
 
-  .icons-wrap {
-    gap: 15px;
+  .icons-wrap__detail {
+    gap: 13px;
   }
 
-  .icons-wrap_address:before {
+  .icons-wrap__detail_address:before {
     background-size: 26px 26px;
     width: 26px;
     height: 26px;
   }
 
-  .icons-wrap_phone:before {
+  .icons-wrap__detail_phone:before {
     background-size: 26px 26px;
     width: 26px;
     height: 26px;
   }
 
-  .icons-wrap_email:before {
+  .icons-wrap__detail_email:before {
     background-size: 26px 26px;
     width: 26px;
     height: 26px;
@@ -74,64 +72,78 @@
 
 @media screen and (max-width: 1023px) {
   .icons-wrap {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
-  .icons-wrap_address:before {
+  .icons-wrap__detail {
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 0 0 27px 0;
+  }
+
+  .icons-wrap__detail_address:before {
     background-size: 26px 26px;
     width: 26px;
     height: 26px;
     float: left;
     position: absolute;
-    left: 41px;
-    top: 0;
+    left: 12px;
+    margin: 0;
   }
 
-  .icons-wrap_phone:before {
-    background-size: 26px 26px;
-    width: 26px;
-    height: 26px;
-    float: left;
-    position: absolute;
-    left: -15px;
-  }
-
-  .icons-wrap_email:before {
+  .icons-wrap__detail_phone:before {
     background-size: 26px 26px;
     width: 26px;
     height: 26px;
     float: left;
     position: absolute;
     left: -40px;
+    margin: 0;
+  }
+
+  .icons-wrap__detail_email:before {
+    background-size: 26px 26px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    position: absolute;
+    left: -39px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 630px) {
-  .icons-wrap_address:before {
+  .icons-wrap__detail_address:before {
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
-    left: 25px;
+    left: 0;
     top: -5px;
   }
 
   .icons-wrap__detail {
     font-size: 14px;
     line-height: 18px;
+    margin: 0 0 10px 0;
   }
 
-  .icons-wrap_phone:before {
+  .icons-wrap__detail_phone:before {
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
-    left: -3px;
+    position: absolute;
+    left: -27px;
+    top: -2px;
   }
 
-  .icons-wrap_email:before {
+  .icons-wrap__detail_email:before {
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
-    left: -17px;
+    left: -28px;
   }
 }

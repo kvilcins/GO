@@ -134,4 +134,12 @@
     line-height: 18px;
     width: 100%;
   }
+
+  .date-left__label:before {
+    left: 65%;
+  }
+
+  .date-left__label_amount:before {
+    left: 83%;
+  }
 }

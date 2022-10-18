@@ -49,7 +49,7 @@
         </ul>
       </nav>
 
-      <button class="header__callback">Заказать звонок</button>
+      <button type="button" class="header__callback">Заказать звонок</button>
 
     </div>
 
@@ -57,11 +57,11 @@
 
   <main>
 
-    <section aria-label="main banner" class="main-banner">
+    <section class="main-banner">
       <div class="container main-banner__container">
         <div class="main-banner__text-wrap main-wrap">
           <p class="main-wrap__item main-wrap__item_uppercase">Game Over</p>
-          <p class="main-wrap__item main-wrap__item_padding">Новый формат игр и отдыха</p>
+          <h1 class="main-wrap__item main-wrap__item_padding">Новый формат игр и отдыха</h1>
 
           <div class="main-wrap__advantages advantages">
             <div class="advantages__wrap advantages-text">
@@ -75,9 +75,9 @@
             </div>
           </div>
 
-          <button class="main-wrap__button">Забронировать</button>
+          <button type="button" class="main-wrap__button">Забронировать</button>
 
-          <a href="#booking" class="main-wrap__down down-icon">
+          <a href="#entertainment" class="main-wrap__down down-icon">
             <svg width="97" height="97" viewbox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="down-icon__svg">
               <circle cx="48.5" cy="48.5" r="48" class="down-icon__circle" />
               <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" class="down-icon__rect" />
@@ -89,7 +89,7 @@
       </div>
     </section>
 
-    <section aria-label="entertainment" class="entertainment">
+    <section id="entertainment" class="entertainment">
       <div class="container">
         <h2 class="entertainment__title">У нас есть все для классного
           отдыха с друзьями!
@@ -119,7 +119,7 @@
       </div>
     </section>
 
-    <section aria-label="our halls" id="halls" class="halls">
+    <section id="halls" class="halls">
       <div class="container">
         <h2 class="halls__title">Наши залы</h2>
         <ul class="halls__list">
@@ -147,7 +147,7 @@
       </div>
     </section>
 
-    <section aria-label="booking" id="booking" class="booking">
+    <section id="booking" class="booking">
       <div class="container">
         <h2 class="booking__title">Забронировать зал просто</h2>
           <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="booking__form form">
@@ -277,7 +277,7 @@
       </div>
     </section>
 
-    <section aria-label="about us" id="about-us" class="about-us">
+    <section id="about-us" class="about-us">
       <div class="container">
         <h2 class="about-us__title">О нас</h2>
 
@@ -313,7 +313,7 @@
       </div>
     </section>
 
-    <section aria-label="feedbacks" id="feedbacks" class="feedbacks">
+    <section id="feedbacks" class="feedbacks">
       <div class="container">
         <h2 class="feedbacks__title">Отзывы посетителей</h2>
         <ul class="feedbacks__list">
@@ -342,39 +342,39 @@
       </div>
     </section>
 
-    <section aria-label="faq" id="faq" class="faq">
+    <section id="faq" class="faq">
       <div class="container">
         <h2 class="faq__title">Частые вопросы</h2>
         <ul class="faq__list">
-          <li class="faq__item faq-list">Можно ли забронировать комнату онлайн?
+          <li class="faq__item faq-list faq-list_purple">Можно ли забронировать комнату онлайн?
             <svg width="46" height="46" viewbox="0 0 46 46" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="faq-list__svg faq-list__svg_purple">
               <path d="M22.8305 14H23.5085V34H22.8305V14Z" class="faq-list__path faq-list__path_purple" />
               <path d="M13 24.1695V23.4915H33V24.1695H13Z" class="faq-list__path faq-list__path_purple" />
               <circle cx="23" cy="23" r="22.5" stroke="#6C0287"/>
             </svg>
           </li>
-          <li class="faq__item faq-list">Могут ли мне вернуть деньги за бронь?
+          <li class="faq__item faq-list faq-list_white">Могут ли мне вернуть деньги за бронь?
             <svg width="46" height="46" viewBox="0 0 46 46" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="faq-list__svg faq-list__svg_white">
               <path d="M22.8305 14H23.5085V34H22.8305V14Z" class="faq-list__path faq-list__path_white" />
               <path d="M13 24.1695V23.4915H33V24.1695H13Z" class="faq-list__path faq-list__path_white" />
               <circle cx="23" cy="23" r="22" stroke="white" stroke-width="2"/>
             </svg>
           </li>
-          <li class="faq__item faq-list">Какая комната самая популярная?
+          <li class="faq__item faq-list faq-list_purple">Какая комната самая популярная?
             <svg width="46" height="46" viewBox="0 0 46 46" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="faq-list__svg faq-list__svg_purple">
               <path d="M22.8305 14H23.5085V34H22.8305V14Z" class="faq-list__path faq-list__path_purple" />
               <path d="M13 24.1695V23.4915H33V24.1695H13Z" class="faq-list__path faq-list__path_purple" />
               <circle cx="23" cy="23" r="22.5" stroke="#6C0287"/>
             </svg>
           </li>
-          <li class="faq__item faq-list">Как получить VIP карту?
+          <li class="faq__item faq-list faq-list_white">Как получить VIP карту?
             <svg width="46" height="46" viewBox="0 0 46 46" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="faq-list__svg faq-list__svg_white">
               <path d="M22.8305 14H23.5085V34H22.8305V14Z" class="faq-list__path faq-list__path_white" />
               <path d="M13 24.1695V23.4915H33V24.1695H13Z" class="faq-list__path faq-list__path_white" />
               <circle cx="23" cy="23" r="22" stroke="white" stroke-width="2"/>
             </svg>
           </li>
-          <li class="faq__item faq-list">Какая комната самая популярная?
+          <li class="faq__item faq-list faq-list_purple">Какая комната самая популярная?
             <svg width="46" height="46" viewBox="0 0 46 46" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="faq-list__svg faq-list__svg_purple">
               <path d="M22.8305 14H23.5085V34H22.8305V14Z" class="faq-list__path faq-list__path_purple" />
               <path d="M13 24.1695V23.4915H33V24.1695H13Z" class="faq-list__path faq-list__path_purple" />
@@ -385,25 +385,25 @@
       </div>
     </section>
 
-    <section aria-label="contacts" id="contacts" class="contacts">
+  </main>
+
+  <footer class="footer">
+    <section id="contacts" class="contacts">
       <div class="container">
         <h2 class="contacts__title">Контакты</h2>
 
         <div class="contacts__main-wrap contacts-info">
           <div class="contacts-info__inner-wrap contacts-addresses">
-            <div class="contacts-addresses__icons-wrap contacts-addresses__icons-wrap_margin icons-wrap icons-wrap_address">
-              <address class="icons-wrap__detail icons-wrap__detail_address">г. Москва
-                ул. Усачёва, 29 к3
-              </address>
-            </div>
-
-            <div class="contacts-addresses__icons-wrap icons-wrap icons-wrap_phone">
-              <p class="icons-wrap__detail"><a href="tel:+79509302893" class="icons-wrap__detail-link">8 (950) 930 - 28 - 93</a></p>
-            </div>
-
-            <div class="contacts-addresses__icons-wrap icons-wrap icons-wrap_email">
-              <p class="icons-wrap__detail"><a href="mailto:GameOver@gmail.com" class="icons-wrap__detail-link">GameOver@gmail.com</a></p>
-            </div>
+            <address class="contacts-addresses__info icons-wrap">
+              <p class="icons-wrap__detail icons-wrap__detail_address">г. Москва
+              ул. Усачёва, 29 к3</p>
+              <p class="icons-wrap__detail icons-wrap__detail_phone">
+                <a href="tel:+79509302893" class="icons-wrap__detail-link">8 (950) 930 - 28 - 93</a>
+              </p>
+              <p class="icons-wrap__detail icons-wrap__detail_email">
+                <a href="mailto:GameOver@gmail.com" class="icons-wrap__detail-link">GameOver@gmail.com</a>
+              </p>
+            </address>
 
             <ul class="contacts-addresses__list">
               <li class="contacts-addresses__item social-icon">
@@ -465,21 +465,17 @@
         </div>
 
       </div>
+
+      <div class="container footer__wrap copyright">
+        <p class="copyright__element">
+          © Game Over, 2022
+        </p>
+        <p class="copyright__element copyright__element_who">
+          Design by Anastasia Ilina
+          <a href="mailto:ilina9825@gmail.com" class="copyright__element-email">ilina9825@gmail.com</a>
+        </p>
+      </div>
     </section>
-
-  </main>
-
-  <footer class="footer">
-
-    <div class="container footer__wrap copyright">
-      <p class="copyright__element">
-        © Game Over, 2022
-      </p>
-      <p class="copyright__element copyright__element_who">
-        Design by Anastasia Ilina
-        <a href="mailto:ilina9825@gmail.com" class="copyright__element-email">ilina9825@gmail.com</a>
-      </p>
-    </div>
 
   </footer>
   <script
@@ -495,7 +491,7 @@
 
     $(document).ready(function() {
       $('.burger').click(function(event) {
-        $('.burger, .header__menu').toggleClass('active');
+        $('.burger').toggleClass('active');
         $('body').toggleClass('lock')
       });
     });
