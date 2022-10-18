@@ -7,6 +7,11 @@
   justify-content: flex-end;
 }
 
+.date-right__input {
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
 .date-right__input:focus {
   outline: 2px solid var(--neon-purple, #CD06FF);
 }
@@ -101,6 +106,11 @@
 @media screen and (max-width: 630px) {
   .date-right__label {
     width: 100%;
+  }
+
+  .date-right__input {
+    font-size: 14px;
+    padding: 12px 20px;
   }
 
   .date-right__input_firstname {

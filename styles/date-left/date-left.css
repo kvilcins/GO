@@ -8,6 +8,10 @@
   gap: 13px;
 }
 
+.date-left__input {
+  font-size: 18px;
+}
+
 .date-left__input:focus {
   outline: 2px solid var(--neon-purple, #CD06FF);
 }
@@ -105,6 +109,10 @@
     gap: 12px;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
+  }
+
+  .date-left__input {
+    font-size: 14px;
   }
 
   .date-left__input_amount {
