@@ -8,19 +8,22 @@
   gap: 13px;
 }
 
-.date-left__input {
+.date-left__select {
   font-size: 18px;
 }
 
-.date-left__input:focus {
+.date-left__select:focus {
   outline: 2px solid var(--neon-purple, #CD06FF);
 }
 
-.date-left__input_day {
+.date-left__select {
   height: 52px;
   width: 134px;
   padding: 12px 20px;
   transition: outline 0.4s ease;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .date-left__label {
@@ -54,11 +57,18 @@
   transition: outline 0.4s ease;
 }
 
-.date-left__input_amount{
+.date-left__select-amount {
   height: 52px;
   width: 300px;
   padding: 12px 20px;
   transition: outline 0.4s ease;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.date-left__select-amount:focus {
+  outline: 2px solid var(--neon-purple, #CD06FF);
 }
 
 .date-left__input::-webkit-input-placeholder {
@@ -111,11 +121,11 @@
     grid-template-rows: repeat(2, auto);
   }
 
-  .date-left__input {
+  .date-left__select {
     font-size: 14px;
   }
 
-  .date-left__input_amount {
+  .date-left__select-amount {
     width: 100%;
     font-size: 14px;
     line-height: 18px;
@@ -131,16 +141,16 @@
     grid-column: 1 / 3;
   }
 
-  .date-left__input_day {
+  .date-left__select_date {
     font-size: 14px;
     line-height: 18px;
-    width: 100%;
+    width: 42vw;
   }
 
-  .date-left__input_time {
+  .date-left__select_time {
     font-size: 14px;
     line-height: 18px;
-    width: 100%;
+    width: 42vw;
   }
 
   .date-left__label:before {
