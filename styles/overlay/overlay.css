@@ -1,0 +1,14 @@
+.overlay {
+  padding: 60px 150px;
+  margin: auto;
+  max-width: 600px;
+  background-color: var(--dark-violet, #440F51);
+}
+
+@media screen and (max-width: 680px) {
+  .overlay {
+    padding: 60px 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+}

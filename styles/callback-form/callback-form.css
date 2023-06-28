@@ -1,0 +1,21 @@
+.callback-form__button {
+  border: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: var(--main-text-color, #FFFFFF);
+  box-shadow: 0 0 20px 1px var(--main-text-color, #FFFFFF);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: var(--dark-purple, #6C0287);
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 680px) {
+  .callback-form__button {
+    width: 240px;
+    font-size: 18px;
+  }
+}

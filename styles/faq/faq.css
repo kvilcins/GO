@@ -11,8 +11,9 @@
   font-size: 24px;
   padding: 20px 70px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .faq__item:nth-child(even) {
