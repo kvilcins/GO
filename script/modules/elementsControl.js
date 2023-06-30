@@ -10,10 +10,18 @@ const handleButtonClicks = () => {
   });
 };
 
+let ticking = false;
+
 const handleBurgerClicks = () => {
   burger.addEventListener('click', e => {
-    burger.classList.toggle('active');
-    document.body.classList.toggle('lock');
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        burger.classList.toggle('active');
+        document.body.classList.toggle('lock');
+        ticking = false;
+      });
+      ticking = true;
+    }
   });
 };
 
