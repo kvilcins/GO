@@ -1,6 +1,6 @@
 const burger = document.querySelector('.burger');
 const page = document.querySelector('html, body');
-const anchors = document.querySelectorAll('.menu-item__link[href*="#"]');
+const anchors = document.querySelectorAll('a[href^="#"]');
 const nav = document.querySelector('.header__navigation');
 const callback = document.querySelector('.header__callback');
 const header = document.querySelector('.header');

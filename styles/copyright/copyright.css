@@ -13,8 +13,9 @@
 }
 
 .copyright__element_who {
-  white-space: pre-line;
+  display: flex;
   text-align: right;
+  flex-direction: column;
 }
 
 .copyright__element-email {

@@ -1,0 +1,22 @@
+.room-description__description {
+  text-align: center;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .room-description__description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .room-description__description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .room-description__description  {
+    font-size: 14px;
+  }
+}

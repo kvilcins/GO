@@ -1,0 +1,12 @@
+.whats-in-wrapper {
+  display: flex;
+  gap: 0 80px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .whats-in-wrapper {
+    gap: 50px 0;
+    flex-direction: column;
+  }
+}

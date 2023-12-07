@@ -12,36 +12,27 @@
   list-style-type: none;
 }
 
-.halls__item_80s {
-  background-image: url("img/80s-vibes.jpg");
+.halls__item {
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 580px 349px;
   width: 580px;
   height: 349px;
+}
+
+.halls__item_80s {
+  background-image: url("img/80s-vibes.jpg");
 }
 
 .halls__item_star-wars {
   background-image: url("img/star-wars.jpg");
-  background-repeat: no-repeat;
-  background-size: 580px 349px;
-  width: 580px;
-  height: 349px;
 }
 
 .halls__item_wild-west {
   background-image: url("img/wild-west.jpg");
-  background-repeat: no-repeat;
-  background-size: 580px 349px;
-  width: 580px;
-  height: 349px;
 }
 
 .halls__item_neon-style {
   background-image: url("img/neon-style.jpg");
-  background-repeat: no-repeat;
-  background-size: 580px 349px;
-  width: 580px;
-  height: 349px;
 }
 
 @media screen and (max-width: 1320px) {
@@ -53,78 +44,21 @@
     gap: 18px;
   }
 
-  .halls__item_80s {
-    background-size: 443px 267px;
-    width: 443px;
-    height: 267px;
-  }
-
-  .halls__item_star-wars {
-    background-size: 443px 267px;
-    width: 443px;
-    height: 267px;
-  }
-
-  .halls__item_wild-west {
-    background-size: 443px 267px;
-    width: 443px;
-    height: 267px;
-  }
-
-  .halls__item_neon-style {
-    background-size: 443px 267px;
+  .halls__item {
     width: 443px;
     height: 267px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .halls__item_80s {
-    background-size: 335px 200px;
-    width: 335px;
-    height: 200px;
-  }
-
-  .halls__item_star-wars {
-    background-size: 335px 200px;
-    width: 335px;
-    height: 200px;
-  }
-
-  .halls__item_wild-west {
-    background-size: 335px 200px;
-    width: 335px;
-    height: 200px;
-  }
-
-  .halls__item_neon-style {
-    background-size: 335px 200px;
+  .halls__item {
     width: 335px;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .halls__item_80s {
-    background-size: 280px 168px;
-    width: 280px;
-    height: 168px;
-  }
-
-  .halls__item_star-wars {
-    background-size: 280px 168px;
-    width: 280px;
-    height: 168px;
-  }
-
-  .halls__item_wild-west {
-    background-size: 280px 168px;
-    width: 280px;
-    height: 168px;
-  }
-
-  .halls__item_neon-style {
-    background-size: 280px 168px;
+  .halls__item {
     width: 280px;
     height: 168px;
   }

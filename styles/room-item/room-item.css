@@ -1,0 +1,33 @@
+.room-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  position: relative;
+}
+
+.room-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 1px var(--dark-purple, #6C0287);
+}
+
+.room-item__description {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  white-space: pre-line;
+  text-align: center;
+  line-height: 36px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1023px) {
+  .room-item__description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

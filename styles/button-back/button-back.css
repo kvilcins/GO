@@ -1,0 +1,22 @@
+.button-back {
+  cursor: pointer;
+  color: var(--main-text-color, #FFFFFF);
+}
+
+@media screen and (max-width: 1024px) {
+  .button-back {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-back {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .button-back  {
+    font-size: 14px;
+  }
+}

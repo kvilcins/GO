@@ -30,6 +30,7 @@
 @import "blockquote-text/blockquote-text.css";
 @import "blockquote-wrapper/blockquote-wrapper.css";
 @import "cite/cite.css";
+@import "room-banner/room-banner.css";
 @import "quote/quote.css";
 @import "feedbacks/feedbacks.css";
 @import "feedbacks-card/feedback-card.css";
@@ -48,3 +49,10 @@
 @import "overlay/overlay.css";
 @import "callback-fieldset/callback-fieldset.css";
 @import "callback-form/callback-form.css";
+@import "whats-in-wrapper/whats-in-wrapper.css";
+@import "other-rooms/other-rooms.css";
+@import "room-item/room-item.css";
+@import "room-desc/room-desc.css";
+@import "back-wrapper/back-wrapper.css";
+@import "button-back/button-back.css";
+@import "room-description/room-description.css";
