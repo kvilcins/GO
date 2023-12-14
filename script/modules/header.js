@@ -18,7 +18,7 @@ const createHeader = () => {
   logoLink.className = 'header__link';
 
   const logoImg = document.createElement('img');
-  logoImg.src = '../styles/header/img/logo.svg';
+  logoImg.src = '../../styles/header/img/logo.svg';
   logoImg.alt = 'logo';
   logoImg.className = 'header__logo';
 
@@ -29,11 +29,11 @@ const createHeader = () => {
   ul.className = 'header__list menu-list';
 
   const menuItems = [
-    { href: '/rooms/rooms.html', text: 'Залы' },
-    { href: '/aboutUs.html', text: 'О нас' },
-    { href: '/booking.html', text: 'Бронь' },
-    { href: '/feedbacks.html', text: 'Отзывы' },
-    { href: '/contacts.html', text: 'Контакты' },
+    { href: '../rooms/rooms.html', text: 'Залы' },
+    { href: '../aboutUs.html', text: 'О нас' },
+    { href: '../booking.html', text: 'Бронь' },
+    { href: '../feedbacks.html', text: 'Отзывы' },
+    { href: '../contacts.html', text: 'Контакты' },
   ];
 
   for (const item of menuItems) {
