@@ -1,4 +1,7 @@
 const createHeader = () => {
+  // const currentPath = window.location.pathname;
+  // const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+
   // Create elements
   const header = document.createElement('header');
   header.className = 'header';
@@ -14,7 +17,7 @@ const createHeader = () => {
   burgerSpan.className = 'burger__span';
 
   const logoLink = document.createElement('a');
-  logoLink.href = '../../index.html';
+  logoLink.href = '/';
   logoLink.className = 'header__link';
 
   const logoImg = document.createElement('img');

@@ -1,4 +1,7 @@
 const createHalls = () => {
+  // const currentPath = window.location.pathname;
+  // const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+
   // Создание элемента 'section' и назначение класса и id
   let sectionHalls = document.createElement('section');
   sectionHalls.className = 'halls';
@@ -21,10 +24,10 @@ const createHalls = () => {
   divContainer.appendChild(ul);
 
   let items = [
-    {class: 'halls__item_80s', text: '80’s vibes', link: '/rooms/80s.html'},
-    {class: 'halls__item_star-wars', text: 'Star wars', link: '/rooms/star-wars.html'},
-    {class: 'halls__item_wild-west', text: 'Wild west', link: '/rooms/wild-west.html'},
-    {class: 'halls__item_neon-style', text: 'Neon style', link: '/rooms/neon-style.html'}
+    {class: 'halls__item_80s', text: '80’s vibes', link: './80s.html'},
+    {class: 'halls__item_star-wars', text: 'Star wars', link: './star-wars.html'},
+    {class: 'halls__item_wild-west', text: 'Wild west', link: './wild-west.html'},
+    {class: 'halls__item_neon-style', text: 'Neon style', link: './neon-style.html'}
   ];
 
   for (let item of items) {
