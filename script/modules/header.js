@@ -14,7 +14,7 @@ const createHeader = () => {
   burgerSpan.className = 'burger__span';
 
   const logoLink = document.createElement('a');
-  logoLink.href = '../../rooms.js/index.html';
+  logoLink.href = '../../index.html';
   logoLink.className = 'header__link';
 
   const logoImg = document.createElement('img');
@@ -29,11 +29,11 @@ const createHeader = () => {
   ul.className = 'header__list menu-list';
 
   const menuItems = [
-    { href: '/rooms.js/rooms/rooms.html', text: 'Залы' },
-    { href: '/rooms.js/aboutUs.html', text: 'О нас' },
-    { href: '/rooms.js/booking.html', text: 'Бронь' },
-    { href: '/rooms.js/feedbacks.html', text: 'Отзывы' },
-    { href: '/rooms.js/contacts.html', text: 'Контакты' },
+    { href: '/rooms/rooms.html', text: 'Залы' },
+    { href: '/aboutUs.html', text: 'О нас' },
+    { href: '/booking.html', text: 'Бронь' },
+    { href: '/feedbacks.html', text: 'Отзывы' },
+    { href: '/contacts.html', text: 'Контакты' },
   ];
 
   for (const item of menuItems) {

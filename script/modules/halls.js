@@ -21,10 +21,10 @@ const createHalls = () => {
   divContainer.appendChild(ul);
 
   let items = [
-    {class: 'halls__item_80s', text: '80’s vibes', link: '/rooms.js/rooms/80s.html'},
-    {class: 'halls__item_star-wars', text: 'Star wars', link: '/rooms.js/rooms/star-wars.html'},
-    {class: 'halls__item_wild-west', text: 'Wild west', link: '/rooms.js/rooms/wild-west.html'},
-    {class: 'halls__item_neon-style', text: 'Neon style', link: '/rooms.js/rooms/neon-style.html'}
+    {class: 'halls__item_80s', text: '80’s vibes', link: '/rooms/80s.html'},
+    {class: 'halls__item_star-wars', text: 'Star wars', link: '/rooms/star-wars.html'},
+    {class: 'halls__item_wild-west', text: 'Wild west', link: '/rooms/wild-west.html'},
+    {class: 'halls__item_neon-style', text: 'Neon style', link: '/rooms/neon-style.html'}
   ];
 
   for (let item of items) {
