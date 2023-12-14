@@ -1,3 +1,5 @@
+import {baseURL} from './baseUrl.js'
+
 const createBooking = () => {
   // Создание элемента 'section' и назначение класса и id
   let sectionBooking = document.createElement('section');
@@ -5,7 +7,7 @@ const createBooking = () => {
   sectionBooking.id = 'booking';
 
   // Проверка текущего URL
-  if (window.location.pathname === '/rooms.js/booking.html') {
+  if (window.location.pathname === `${baseURL}/booking.html`) {
     // Изменение стиля, если мы находимся на странице /rooms.js/booking.html
     sectionBooking.style.backgroundColor = 'var(--main-background-color, #1B1A1B)';
   }

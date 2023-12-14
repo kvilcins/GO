@@ -1,8 +1,6 @@
-const createHeader = () => {
-  const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-// Определяем базовый URL в зависимости от среды
-  const baseURL = isDevelopment ? '/rooms.js' : '/GO';
+import {baseURL} from './baseUrl.js'
 
+const createHeader = () => {
   // Create elements
   const header = document.createElement('header');
   header.className = 'header';

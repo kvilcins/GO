@@ -1,8 +1,6 @@
-const createHalls = () => {
-  const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-// Определяем базовый URL в зависимости от среды
-  const baseURL = isDevelopment ? '/rooms.js' : '/GO';
+import {baseURL} from './baseUrl.js'
 
+const createHalls = () => {
   // Создание элемента 'section' и назначение класса и id
   let sectionHalls = document.createElement('section');
   sectionHalls.className = 'halls';
