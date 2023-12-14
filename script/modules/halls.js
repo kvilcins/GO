@@ -1,6 +1,7 @@
 const createHalls = () => {
-  // const currentPath = window.location.pathname;
-  // const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+  const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+// Определяем базовый URL в зависимости от среды
+  const baseURL = isDevelopment ? '/rooms.js' : '/GO';
 
   // Создание элемента 'section' и назначение класса и id
   let sectionHalls = document.createElement('section');
@@ -24,10 +25,10 @@ const createHalls = () => {
   divContainer.appendChild(ul);
 
   let items = [
-    {class: 'halls__item_80s', text: '80’s vibes', link: './80s.html'},
-    {class: 'halls__item_star-wars', text: 'Star wars', link: './star-wars.html'},
-    {class: 'halls__item_wild-west', text: 'Wild west', link: './wild-west.html'},
-    {class: 'halls__item_neon-style', text: 'Neon style', link: './neon-style.html'}
+    {class: 'halls__item_80s', text: '80’s vibes', link: `${baseURL}/rooms/80s.html`},
+    {class: 'halls__item_star-wars', text: 'Star wars', link: `${baseURL}/rooms/star-wars.html`},
+    {class: 'halls__item_wild-west', text: 'Wild west', link: `${baseURL}/rooms/wild-west.html`},
+    {class: 'halls__item_neon-style', text: 'Neon style', link: `${baseURL}/rooms/neon-style.html`}
   ];
 
   for (let item of items) {

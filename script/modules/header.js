@@ -1,6 +1,7 @@
 const createHeader = () => {
-  // const currentPath = window.location.pathname;
-  // const basePath = currentPath.substring(0, currentPath.lastIndexOf('/'));
+  const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+// Определяем базовый URL в зависимости от среды
+  const baseURL = isDevelopment ? '/rooms.js' : '/GO';
 
   // Create elements
   const header = document.createElement('header');
@@ -17,11 +18,11 @@ const createHeader = () => {
   burgerSpan.className = 'burger__span';
 
   const logoLink = document.createElement('a');
-  logoLink.href = '/';
+  logoLink.href = `${baseURL}`;
   logoLink.className = 'header__link';
 
   const logoImg = document.createElement('img');
-  logoImg.src = '../../styles/header/img/logo.svg';
+  logoImg.src = `${baseURL}/styles/header/img/logo.svg`;
   logoImg.alt = 'logo';
   logoImg.className = 'header__logo';
 
@@ -32,11 +33,11 @@ const createHeader = () => {
   ul.className = 'header__list menu-list';
 
   const menuItems = [
-    { href: '../rooms/rooms.html', text: 'Залы' },
-    { href: '../aboutUs.html', text: 'О нас' },
-    { href: '../booking.html', text: 'Бронь' },
-    { href: '../feedbacks.html', text: 'Отзывы' },
-    { href: '../contacts.html', text: 'Контакты' },
+    { href: `${baseURL}/rooms/rooms.html`, text: 'Залы' },
+    { href: `${baseURL}/aboutUs.html`, text: 'О нас' },
+    { href: `${baseURL}/booking.html`, text: 'Бронь' },
+    { href: `${baseURL}/feedbacks.html`, text: 'Отзывы' },
+    { href: `${baseURL}/contacts.html`, text: 'Контакты' },
   ];
 
   for (const item of menuItems) {
