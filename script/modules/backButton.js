@@ -6,12 +6,13 @@ const createBackButton = () => {
   container.classList.add('container');
 
   const link = document.createElement('a');
-  link.href = '/index.html';
+  link.href = 'javascript:void(0)'; // Изменено здесь
+  link.onclick = () => window.history.back(); // Изменено здесь
   link.classList.add('back-wrapper__button', 'button-back');
 
   const iconSpan = document.createElement('span');
   iconSpan.classList.add('button-back__icon');
-  iconSpan.innerHTML = '&#129044;';
+  iconSpan.innerHTML = '🠔';
 
   const textSpan = document.createElement('span');
   textSpan.classList.add('button-back__text');

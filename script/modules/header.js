@@ -14,7 +14,7 @@ const createHeader = () => {
   burgerSpan.className = 'burger__span';
 
   const logoLink = document.createElement('a');
-  logoLink.href = '../../index.html';
+  logoLink.href = '../../rooms.js/index.html';
   logoLink.className = 'header__link';
 
   const logoImg = document.createElement('img');
@@ -29,11 +29,11 @@ const createHeader = () => {
   ul.className = 'header__list menu-list';
 
   const menuItems = [
-    { href: '/index.html#halls', text: 'Залы' },
-    { href: '/index.html#about-us', text: 'О нас' },
-    { href: '/index.html#booking', text: 'Бронь' },
-    { href: '/index.html#feedbacks', text: 'Отзывы' },
-    { href: '#contacts', text: 'Контакты' },
+    { href: '/rooms.js/rooms/rooms.html', text: 'Залы' },
+    { href: '/rooms.js/aboutUs.html', text: 'О нас' },
+    { href: '/rooms.js/booking.html', text: 'Бронь' },
+    { href: '/rooms.js/feedbacks.html', text: 'Отзывы' },
+    { href: '/rooms.js/contacts.html', text: 'Контакты' },
   ];
 
   for (const item of menuItems) {
@@ -72,8 +72,15 @@ const createHeader = () => {
   }
 };
 
-const { header, callbackButton } = createHeader();
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 120) {
+    header.classList.add('sticky');
+  } else {
+    header.classList.remove('sticky');
+  }
+});
 
+const { header, callbackButton } = createHeader();
 
 export {
   createHeader,

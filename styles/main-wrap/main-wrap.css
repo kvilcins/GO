@@ -50,6 +50,8 @@
   line-height: 50px;
   font-weight: 400;
   margin: 0 0 30px 0;
+  text-align: left;
+  text-transform: unset;
 }
 
 .main-wrap__button {

@@ -1,56 +1,54 @@
-// import {createHeader} from "./modules/header.js";
-// import {createFooter} from "./modules/footer.js";
 import {createBackButton} from "./modules/backButton.js";
 
 createBackButton();
 
-// Объект с данными для каждой комнаты
-const roomData = {
-  '80s': {
-    name: '80’s vibes',
-    description: 'Вы окунетесь в незабываемую атмосферу Америки 80-х годов, стилевая музыка, кассеты и магнитофоны. Одевайтесь ярко, берите с собой хорошее настроение и устройте большую вечеринку!',
-    imgSrc: '../styles/whats-in-wrapper/img/80s-whats-inside.png',
-    backgroundImg: '../styles/room-banner/img/80s.png',
-    text1: 'В комнате 80-х есть игровые автоматы, магнитофоны, виниловые пластинки и мини кинотеатр.',
-    text2: 'Также вы можете выбрать игровую приставку, настольные игры, VR и караоке.',
-    link: '80s.html',
-  },
-  'star-wars': {
-    name: 'Star Wars',
-    description: 'Здесь вы встретите атрибуты вселенной STAR WARS. Сможете ощутить себя на тех планетах, где разворачивается история STAR WARS и ощутить себя в роли героев наcтоящей саги.',
-    imgSrc: '../styles/whats-in-wrapper/img/starwars.png',
-    backgroundImg: '../styles/room-banner/img/starwars.png',
-    text1: 'В комнате STAR WARS есть игровые зоны в виде космических кораблей, командных пунктов и космических планет.',
-    text2: 'Так же вы сможете воспользоваться игровыми манипуляторами, приставками консолями или просто просмотреть любые серии саги на межпланетных экранах.',
-    link: 'star-wars.html',
-  },
-  'wild-west': {
-    name: 'Wild West',
-    description: 'Ох этот замечательный мир «Дикого Запада». Здесь вы сможете примерить на себя ковбойскую шляпу, кожаный жилет, ковбойские сапоги и даже сесть верхом на лошадь. И не важно, вы будете одним из омерзительной восьмерки или отправитесь в путь освобождать Джанго.',
-    imgSrc: '../styles/whats-in-wrapper/img/wildwest.png',
-    backgroundImg: '../styles/room-banner/img/wildwest.png',
-    text1: 'В комнате присутствует большое количество элементов из любимых историй дикого запада. Револьверы, кожаные вещи, шляпы, сапоги и многое другое.',
-    text2: 'Вы сможете воспользоваться динамическими игровыми платформами в виде лошадей, старинного поезда или дома в стиле вестерна.',
-    link: 'wild-west.html',
-  },
-  'neon-style': {
-    name: 'Neon Style',
-    description: 'Неоновый свет, кислотный диджей, кеды и фотолюминесценция футболки. Если вы любитель темных комнат, музыкального драйва и светящейся одежды, то вы точно знаете что сегодня надеть.',
-    imgSrc: '../styles/whats-in-wrapper/img/neonstyle.png',
-    backgroundImg: '../styles/room-banner/img/neonstyle.png',
-    text1: 'Вы сможете встать у диджейского пульта и создать свой сет, который порадует остальных участников комнаты...или нет.',
-    text2: 'В комнате также присутствует большое предметов с элементами фосфора, включая игровые консоли, стулья и диваны. Вы точно не потеряетесь внутри.',
-    link: 'neon-style.html',
-  }
-};
+const createRoomContent = () => {
+  // Объект с данными для каждой комнаты
+  const roomData = {
+    '80s': {
+      name: '80’s vibes',
+      description: 'Вы окунетесь в незабываемую атмосферу Америки 80-х годов, стилевая музыка, кассеты и магнитофоны. Одевайтесь ярко, берите с собой хорошее настроение и устройте большую вечеринку!',
+      imgSrc: '../styles/whats-in-wrapper/img/80s-whats-inside.png',
+      backgroundImg: '../styles/room-banner/img/80s.png',
+      text1: 'В комнате 80-х есть игровые автоматы, магнитофоны, виниловые пластинки и мини кинотеатр.',
+      text2: 'Также вы можете выбрать игровую приставку, настольные игры, VR и караоке.',
+      link: '80s.html',
+    },
+    'star-wars': {
+      name: 'Star Wars',
+      description: 'Здесь вы встретите атрибуты вселенной STAR WARS. Сможете ощутить себя на тех планетах, где разворачивается история STAR WARS и ощутить себя в роли героев наcтоящей саги.',
+      imgSrc: '../styles/whats-in-wrapper/img/starwars.png',
+      backgroundImg: '../styles/room-banner/img/starwars.png',
+      text1: 'В комнате STAR WARS есть игровые зоны в виде космических кораблей, командных пунктов и космических планет.',
+      text2: 'Так же вы сможете воспользоваться игровыми манипуляторами, приставками консолями или просто просмотреть любые серии саги на межпланетных экранах.',
+      link: 'star-wars.html',
+    },
+    'wild-west': {
+      name: 'Wild West',
+      description: 'Ох этот замечательный мир «Дикого Запада». Здесь вы сможете примерить на себя ковбойскую шляпу, кожаный жилет, ковбойские сапоги и даже сесть верхом на лошадь. И не важно, вы будете одним из омерзительной восьмерки или отправитесь в путь освобождать Джанго.',
+      imgSrc: '../styles/whats-in-wrapper/img/wildwest.png',
+      backgroundImg: '../styles/room-banner/img/wildwest.png',
+      text1: 'В комнате присутствует большое количество элементов из любимых историй дикого запада. Револьверы, кожаные вещи, шляпы, сапоги и многое другое.',
+      text2: 'Вы сможете воспользоваться динамическими игровыми платформами в виде лошадей, старинного поезда или дома в стиле вестерна.',
+      link: 'wild-west.html',
+    },
+    'neon-style': {
+      name: 'Neon Style',
+      description: 'Неоновый свет, кислотный диджей, кеды и фотолюминесценция футболки. Если вы любитель темных комнат, музыкального драйва и светящейся одежды, то вы точно знаете что сегодня надеть.',
+      imgSrc: '../styles/whats-in-wrapper/img/neonstyle.png',
+      backgroundImg: '../styles/room-banner/img/neonstyle.png',
+      text1: 'Вы сможете встать у диджейского пульта и создать свой сет, который порадует остальных участников комнаты...или нет.',
+      text2: 'В комнате также присутствует большое предметов с элементами фосфора, включая игровые консоли, стулья и диваны. Вы точно не потеряетесь внутри.',
+      link: 'neon-style.html',
+    }
+  };
 
 // Получаем текущий URL и определяем текущую комнату
-const currentRoom = window.location.pathname.split('/').pop().split('.')[0];
+  const currentRoom = window.location.pathname.split('/').pop().split('.')[0];
 
 // Получаем данные для текущей комнаты
-const currentRoomData = roomData[currentRoom];
+  const currentRoomData = roomData[currentRoom];
 
-const createRoomContent = () => {
   if (!currentRoomData) {
     console.error(`No data found for room: ${currentRoom}`);
     return;
@@ -172,7 +170,7 @@ const createRoomContent = () => {
     // Add event listener
     roomItem.addEventListener('click', () => {
       console.log(`Вы выбрали комнату: ${room.name}`);
-      window.open(room.link, '_blank');
+      window.open(room.link, '_self');
     });
   });
 
@@ -186,7 +184,6 @@ const createRoomContent = () => {
   body.appendChild(main);
 };
 
-// Вызов функции
 createRoomContent();
 
 

@@ -1,0 +1,133 @@
+.contact-info__wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: var(--black-color, #000000);
+}
+
+.contact-info__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px 0;
+}
+
+.contact-info__item:last-child {
+  margin: 0;
+}
+
+.contact-info__item-title {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.contact-info__item-title--bold {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contact-info__item-subtitle {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.contact-info__item-description:last-child {
+  margin: 0;
+}
+
+.contact-info__title {
+  font-size: 45px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-info__description {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+.contact-info__item-description {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 1320px) {
+  .contact-info__title {
+    font-size: 35px;
+  }
+
+  .contact-info__item-description {
+    font-size: 18px;
+  }
+
+  .contact-info__description {
+    font-size: 18px;
+  }
+
+  .contact-info__item-title {
+    font-size: 18px;
+  }
+
+  .contact-info__item-title--bold {
+    font-size: 22px;
+  }
+
+  .contact-info__item-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-info__title {
+    font-size: 28px;
+  }
+
+  .contact-info__item-description {
+    font-size: 16px;
+  }
+
+  .contact-info__description {
+    font-size: 16px;
+  }
+
+  .contact-info__item-title {
+    font-size: 16px;
+  }
+
+  .contact-info__item-title--bold {
+    font-size: 20px;
+  }
+
+  .contact-info__item-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contact-info__title {
+    font-size: 25px;
+  }
+
+  .contact-info__item-description {
+    font-size: 14px;
+  }
+
+  .contact-info__description {
+    font-size: 14px;
+  }
+
+  .contact-info__item-title {
+    font-size: 18px;
+  }
+
+  .contact-info__item-title--bold {
+    font-size: 20px;
+  }
+
+  .contact-info__item-subtitle {
+    font-size: 18px;
+  }
+}
